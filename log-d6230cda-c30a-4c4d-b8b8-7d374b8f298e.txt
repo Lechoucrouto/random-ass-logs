@@ -1,0 +1,3470 @@
+$ cargo check -p photocraft-ui-egui
+warning: patch `egui_demo_lib v0.37.0 (https://github.com/storytold/egui.git?rev
+=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate g
+raph
+warning: patch `egui_inspection v0.37.0 (https://github.com/storytold/egui.git?r
+ev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in the crate
+ graph
+warning: patch `egui_system_font_provider v0.37.0 (https://github.com/storytold/
+egui.git?rev=6d518fc799681571963842f95b55a6b68431b15a#6d518fc7)` was not used in
+ the crate graph
+help: Check that the patched package version and available features are compatib
+le
+      with the dependency requirements. If the patch has a different versionfro
+m
+      what is locked in the Cargo.lock file, run `cargo update` to use the new
+      version. This may also occur with an optional dependency that is not enabl
+ed.
+   Compiling proc-macro2 v1.0.107
+   Compiling quote v1.0.47
+   Compiling serde_core v1.0.229
+   Compiling serde v1.0.229
+   Compiling thiserror v2.0.21
+    Checking cfg-if v1.0.5
+    Checking windows-link v0.2.1
+   Compiling libm v0.2.16
+    Checking once_cell v1.21.4
+   Compiling syn v3.0.6
+   Compiling syn v2.0.119
+   Compiling crc32fast v1.5.3
+   Compiling num-traits v0.2.19
+   Compiling synstructure v0.14.0
+    Checking simd-adler32 v0.3.10
+    Checking adler2 v2.0.1
+    Checking miniz_oxide v0.9.1
+    Checking bitflags v2.13.2
+   Compiling getrandom v0.4.3
+   Compiling generic-array v0.14.7
+    Checking zlib-rs v0.6.8
+    Checking flate2 v1.1.10
+    Checking log v0.4.34
+   Compiling jobserver v0.1.35
+    Checking foldhash v0.2.0
+    Checking memchr v2.8.3
+   Compiling cc v1.5.1
+    Checking hashbrown v0.17.1
+   Compiling zmij v1.0.23
+   Compiling libc v0.2.191
+    Checking windows-strings v0.5.1
+    Checking windows-result v0.4.1
+    Checking either v1.18.0
+   Compiling zerocopy v0.8.59
+   Compiling crossbeam-utils v0.8.23
+   Compiling crossbeam-epoch v0.9.21
+   Compiling crossbeam-deque v0.8.8
+   Compiling rayon-core v1.13.0
+    Checking windows-threading v0.2.1
+    Checking stable_deref_trait v1.2.1
+   Compiling serde_derive v1.0.229
+   Compiling thiserror-impl v2.0.21
+   Compiling bytemuck_derive v1.12.1
+    Checking bytemuck v1.25.2
+   Compiling zerofrom-derive v0.1.8
+   Compiling yoke-derive v0.8.3
+   Compiling zerovec-derive v0.11.6
+    Checking smallvec v1.16.2
+    Checking arrayvec v0.7.8
+   Compiling displaydoc v0.2.7
+   Compiling windows-interface v0.59.3
+   Compiling windows-implement v0.60.2
+   Compiling zerocopy-derive v0.8.59
+   Compiling zeroize_derive v1.5.0
+    Checking polycool v0.4.0
+    Checking kurbo v0.13.1
+    Checking windows-core v0.62.2
+    Checking zerofrom v0.1.8
+    Checking yoke v0.8.3
+    Checking font-types v0.12.5
+    Checking windows-numerics v0.3.1
+    Checking windows-future v0.3.2
+    Checking windows-collections v0.3.2
+    Checking scopeguard v1.2.0
+   Compiling icu_properties_data v2.3.0
+    Checking windows v0.62.2
+    Checking rayon v1.12.0
+   Compiling zeroize v1.9.1
+    Checking tracing-core v0.1.36
+    Checking equivalent v1.0.2
+    Checking pin-project-lite v0.2.17
+    Checking tracing v0.1.44
+   Compiling cmake v0.1.58
+    Checking miniz_oxide v0.8.9
+    Checking fearless_simd v0.4.1
+   Compiling icu_normalizer_data v2.3.0
+   Compiling aws-lc-sys v0.46.0
+    Checking fdeflate v0.3.7
+   Compiling rustversion v1.0.23
+    Checking indexmap v2.14.2
+    Checking zerovec v0.11.8
+    Checking windows-sys v0.61.2
+    Checking half v2.7.1
+    Checking typenum v1.20.1
+    Checking zune-core v0.5.3
+    Checking writeable v0.6.4
+    Checking itoa v1.0.18
+    Checking unicode-bidi v0.3.18
+   Compiling aws-lc-rs v1.18.2
+   Compiling encoding_rs v0.8.42
+    Checking zune-jpeg v0.5.15
+   Compiling block-buffer v0.10.4
+   Compiling crypto-common v0.1.7
+    Checking read-fonts v0.41.0
+    Checking linebender_resource_handle v0.1.1
+   Compiling digest v0.10.7
+   Compiling der_derive v0.7.3
+    Checking litemap v0.8.3
+   Compiling serde_json v1.0.154
+   Compiling multiversion_no_op v1.0.0
+   Compiling tinystr v0.8.4
+    Checking png v0.18.1
+   Compiling tracing-attributes v0.1.31
+   Compiling der v0.7.10
+   Compiling tls_codec_derive v0.4.2
+    Checking cobs v0.3.0
+   Compiling icu_locale_core v2.3.0
+    Checking postcard v1.1.3
+   Compiling tls_codec v0.4.2
+   Compiling spki v0.7.3
+   Compiling sha1 v0.10.7
+    Checking zerotrie v0.2.5
+    Checking skrifa v0.44.0
+    Checking harfrust v0.12.0
+   Compiling potential_utf v0.1.6
+    Checking color v0.3.3
+    Checking quick-xml v0.41.0
+    Checking euclid v0.22.14
+    Checking weezl v0.1.12
+    Checking quick-error v2.0.1
+   Compiling winapi v0.3.9
+    Checking siphasher v1.0.4
+    Checking pxfm v0.1.30
+    Checking guillotiere v0.7.0
+    Building [======>                  ] 226/735: pxfm, winapi(build.rs), .
+ Compiling icu_collections v2.3.0
+    Checking peniko v0.6.1
+   Compiling icu_provider v2.3.1
+   Compiling x509-cert v0.2.5
+    Checking jxl-bitstream v1.1.0
+   Compiling rustls-pki-types v1.15.1
+   Compiling fax_derive v0.2.0
+    Checking byteorder-lite v0.1.0
+    Checking color_quant v1.1.0
+   Compiling parking_lot_core v0.9.12
+   Compiling ntapi v0.4.3
+    Checking gif v0.14.2
+    Checking image-webp v0.2.4
+    Checking moxcms v0.8.1
+    Checking fax v0.2.6
+    Checking md-5 v0.10.6
+    Checking float-cmp v0.9.0
+    Checking winsafe v0.0.29
+    Checking unicode-properties v0.1.4
+    Checking alloc-no-stdlib v3.0.0
+   Compiling rustls v0.23.46
+    Checking rustc-hash v2.1.3
+   Compiling httparse v1.10.1
+    Checking alloc-no-stdlib v2.0.4
+    Checking alloc-stdlib v0.2.4
+   Compiling icu_properties v2.3.0
+    Checking alloc-stdlib v0.3.0
+    Checking strict-num v0.1.1
+   Compiling icu_normalizer v2.3.0
+    Checking craft-cms v0.1.0 (https://github.com/storytold/craft-libs?rev=c6
+eb84d427d81b6d64207654c8ee0516cd3d7324#c6eb84d4)
+    Checking tiff v0.11.3
+    Checking jxl-oxide-common v1.0.0
+    Checking jxl-grid v0.6.2
+    Checking lock_api v0.4.14
+    Checking qoi v0.4.1
+    Checking chrono v0.4.45
+    Checking arrayref v0.3.9
+    Checking tinyvec v1.13.3
+   Compiling h2 v0.4.20
+    Checking image v0.25.10
+    Checking parking_lot v0.12.5
+    Checking photocraft-color v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft
+\photocraft-main\crates\color)
+   Compiling idna_adapter v1.2.2
+    Checking sysinfo v0.40.1
+    Checking brotli-decompressor v6.3.1
+    Checking brotli-decompressor v5.0.3
+    Checking jxl-coding v1.0.1
+    Checking jxl-threadpool v1.0.0
+    Checking photocraft-geom v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\
+photocraft-main\crates\geom)
+    Checking lz4_flex v0.11.6
+   Compiling khronos_api v3.1.0
+    Checking profiling v1.0.18
+    Checking photocraft-raster v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraf
+t\photocraft-main\crates\raster)
+   Compiling sigstore-types v0.6.6
+   Compiling hyper v1.12.0
+   Compiling idna v1.1.0
+   Compiling sha2 v0.10.9
+    Checking static_assertions v1.1.0
+    Checking base64 v0.23.1
+    Checking raw-window-handle v0.6.2
+    Checking utf8_iter v1.0.4
+   Compiling windows_x86_64_msvc v0.52.6
+   Compiling hyper-util v0.1.21
+   Compiling url v2.5.8
+    Checking jxl-modular v0.11.3
+    Checking jxl-image v0.13.0
+   Compiling cms v0.2.3
+    Checking num-complex v0.4.6
+    Checking typed-path v0.13.0
+    Checking rustc-hash v1.1.0
+   Compiling icu_locale_fallback_data v2.3.0
+    Checking uuid v1.26.1
+    Checking accesskit v0.25.1
+    Checking zip v9.1.3
+   Compiling gl_generator v0.14.0
+   Compiling tower-http v0.6.11
+   Compiling serde_urlencoded v0.7.1
+    Checking naga-types v30.0.1
+   Compiling crmf v0.2.0
+    Checking jxl-vardct v0.11.1
+   Compiling naga v30.0.1
+    Checking hayro-jpeg2000 v0.3.5
+    Checking craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=a
+d8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+   Compiling toml_datetime v1.1.1+spec-1.1.0
+    Checking simplecss v0.2.2
+    Checking libloading v0.8.9
+   Compiling slotmap v1.1.1
+   Compiling ahash v0.8.12
+    Checking bit-vec v0.9.1
+   Compiling paste v1.0.15
+    Checking unicode-segmentation v1.13.3
+    Checking data-url v0.3.2
+    Checking unicode-width v0.2.2
+    Checking pico-args v0.5.0
+    Checking xmlwriter v0.1.0
+   Compiling unicode-general-category v1.1.0
+   Compiling ash v0.38.0+1.3.281
+    Checking codespan-reporting v0.13.1
+    Checking bit-set v0.10.0
+    Checking craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?r
+ev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking windows-targets v0.52.6
+    Checking jxl-frame v0.13.3
+   Compiling cmpv2 v0.2.0
+   Compiling glutin_wgl_sys v0.6.1
+    Checking vello_common v0.2.0
+    Checking craft-xml v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking emath v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc
+799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking roxmltree v0.21.2
+    Checking spirv v0.4.0+sdk-1.4.341.0
+   Compiling pulp v0.22.3
+    Checking allocator-api2 v0.2.21
+    Checking unicode-ident v1.0.26
+    Checking simdutf8 v0.1.5
+   Compiling khronos-egl v6.0.0
+    Checking core_detect v1.0.0
+    Checking hashbrown v0.16.1
+    Checking ecolor v0.37.0 (https://github.com/storytold/egui.git?rev=6d518f
+c799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking vello_cpu v0.2.0
+    Checking icu_locale_fallback v2.3.0
+   Compiling x509-tsp v0.1.0
+   Compiling rand v0.10.3
+    Checking wgpu-types v30.0.1
+    Checking craft-zip v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking jxl-color v0.11.0
+    Checking photocraft-doc v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\p
+hotocraft-main\crates\doc)
+    Checking tiny-skia-path v0.12.0
+   Compiling wgpu-hal v30.0.1
+    Checking rgb v0.8.53
+   Compiling ring v0.17.14
+    Checking raw-cpuid v11.6.0
+   Compiling proc-macro-error-attr v1.0.4
+    Checking reborrow v0.5.5
+    Checking presser v0.3.1
+   Compiling syn v1.0.109
+    Checking pulp-wasm-simd-flag v0.1.1
+    Checking self_cell v1.3.0
+    Checking nohash-hasher v0.2.0
+    Checking epaint v0.37.0 (https://github.com/storytold/egui.git?rev=6d518f
+c799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking gpu-allocator v0.28.0
+    Checking jxl-render v0.12.4
+    Checking wgpu-naga-bridge v30.0.1
+    Checking fontdb v0.24.0
+    Checking jxl-jbr v0.2.1
+    Checking unicode-normalization v0.1.26
+    Checking svgtypes v0.16.2
+    Checking read-fonts v0.44.0
+   Compiling blake3 v1.8.7
+    Checking itertools v0.15.0
+    Checking zune-inflate v0.2.54
+    Checking ordered-float v5.5.0
+    Checking num-integer v0.1.47
+   Compiling proc-macro-error v1.0.4
+    Checking hayro-ccitt v0.3.0
+   Compiling icu_segmenter_data v2.3.0
+    Checking unicode-script v0.5.8
+    Checking utf16_iter v1.0.5
+    Checking range-alloc v0.1.5
+    Checking bit_field v0.10.3
+    Checking unicode-vo v0.1.0
+    Checking glow v0.17.0
+    Checking renderdoc-sys v1.1.0
+    Checking write16 v1.0.0
+    Checking imagesize v0.15.0
+    Checking lebe v0.5.3
+    Checking exr v1.74.2
+    Checking usvg v0.48.1
+    Checking skrifa v0.47.0
+   Compiling serde_json_canonicalizer v0.3.2
+    Checking hayro-jbig2 v0.3.0 (https://github.com/storytold/craft-libs?rev=
+ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking egui v0.37.0 (https://github.com/storytold/egui.git?rev=6d518fc7
+99681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking stringprep v0.1.5
+    Checking jxl-oxide v0.12.6
+   Compiling phf_macros v0.13.1
+    Checking tiny-skia v0.12.0
+   Compiling toml_edit v0.25.15+spec-1.1.0
+    Checking brotli v8.0.4
+    Checking linesweeper v0.5.0
+    Checking phf_shared v0.13.1
+    Checking zune-jpegxl v0.5.2
+   Compiling winit v0.30.13 (https://github.com/storytold/winit.git?rev=a517b
+3846ee8457d84ee4975110bfda6797c44dc#a517b384)
+   Compiling wgpu-core v30.0.1
+    Checking vectorcraft-geom v0.18.0 (https://github.com/storytold/vectorcra
+ft.git?rev=6b3a6b8788ebcb420d69449199cbdf323888d27e#6b3a6b87)
+    Checking craft-crw v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking craft-jpeg v0.1.0 (https://github.com/storytold/craft-libs?rev=a
+d8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking getrandom v0.2.17
+    Checking constant_time_eq v0.4.2
+    Checking strength_reduce v0.2.4
+    Checking hayro-postscript v0.2.0
+    Checking jpeg-encoder v0.6.1
+    Checking cpufeatures v0.3.1
+    Checking ruzstd v0.9.1
+    Checking untrusted v0.9.0
+    Checking craft-image-codecs v0.1.0 (https://github.com/storytold/craft-li
+bs?rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+   Compiling document-features v0.2.12
+    Checking hayro-cmap v0.1.1
+    Checking transpose v0.2.3
+    Checking craft-raw v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking vectorcraft-pathops v0.18.0 (https://github.com/storytold/vector
+craft.git?rev=6b3a6b8788ebcb420d69449199cbdf323888d27e#6b3a6b87)
+    Checking phf v0.13.1
+   Compiling proc-macro-crate v3.5.0
+   Compiling rustls-webpki v0.103.16
+   Compiling sigstore-crypto v0.6.6
+    Checking resvg v0.48.1
+   Compiling sigstore-merkle v0.6.6
+   Compiling sigstore-trust-root v0.6.6
+    Checking hayro-syntax v0.7.2 (https://github.com/storytold/craft-libs?rev
+=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking wgpu-core-deps-windows-linux-android v30.0.1
+    Checking primal-check v0.3.4
+    Checking windows-sys v0.52.0
+   Compiling tokio-rustls v0.26.6
+   Compiling hyper-rustls v0.27.10
+   Compiling rustls-platform-verifier v0.7.1
+   Compiling reqwest v0.13.5
+    Checking vello_common v0.0.8
+    Checking craft-pcraft-format v0.1.0 (https://github.com/storytold/craft-l
+ibs?rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+   Compiling wgpu v30.0.1
+    Checking craft-tiff v0.1.0 (https://github.com/storytold/craft-libs?rev=1
+63f1b20315ffacaf8a6e085f4ae7fc568c08ff2#163f1b20)
+   Compiling sigstore-tsa v0.6.6
+   Compiling sigstore-rekor v0.6.6
+   Compiling sigstore-bundle v0.6.6
+   Compiling sigstore-verify v0.6.6
+    Checking cursor-icon v1.2.0
+    Checking memmap2 v0.9.11
+    Checking smol_str v0.2.2
+    Checking craft-atomic v0.1.0 (https://github.com/storytold/craft-libs?rev
+=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking dpi v0.1.2
+    Checking parlance v0.1.0
+   Compiling wasmi_ir v2.0.0
+   Compiling wasmparser v0.228.0
+    Checking fontique v0.11.1
+    Checking craft-pcraft-bundle v0.1.0 (https://github.com/storytold/craft-l
+ibs?rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+   Compiling strum_macros v0.28.0
+    Checking craft-metadata v0.1.0 (https://github.com/storytold/craft-libs?r
+ev=163f1b20315ffacaf8a6e085f4ae7fc568c08ff2#163f1b20)
+    Checking vello_cpu v0.0.8
+    Checking hayro-interpret v0.7.0 (https://github.com/storytold/craft-libs?
+rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking rustfft v6.4.1
+   Compiling winprint v0.2.1 (https://github.com/storytold/winprint.rs?rev=72
+951d7455ebcab569fbd9386c513d3d9f53fb02#72951d74)
+    Checking icu_segmenter v2.3.0
+   Compiling fmt-derive-proc v0.1.2
+    Checking craft-svg v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking photocraft-vector v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraf
+t\photocraft-main\crates\vector)
+    Checking craft-idml v0.1.0 (https://github.com/storytold/craft-libs?rev=a
+d8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking craft-kra v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking craft-ora v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking parley_data v0.11.1
+    Checking accesskit_consumer v0.39.1
+   Compiling photocraft-text v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\
+photocraft-main\crates\text)
+    Checking tiny-skia-path v0.11.4
+    Checking pic-scale v0.7.12
+    Checking fixed_decimal v0.7.3
+    Checking kurbo v0.11.3
+    Checking wasmi_core v2.0.0
+    Checking bitflags v1.3.2
+   Compiling getrandom v0.3.4
+    Checking craft-eps v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking fastrand v2.5.0
+   Compiling wasmi v2.0.0
+    Checking base64 v0.22.1
+    Checking subtle v2.6.1
+    Checking bytes v1.12.1
+    Checking web-time v1.1.0
+    Checking error-code v3.4.0
+    Checking clipboard-win v5.4.1
+    Checking http v1.5.0
+    Checking craft-file-formats v0.1.0 (https://github.com/storytold/craft-li
+bs?rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking tempfile v3.27.0
+    Checking hayro v0.7.1 (https://github.com/storytold/craft-libs?rev=ad8faa
+1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking fmt-derive v0.1.2
+    Checking png v0.17.16
+    Checking svgtypes v0.15.3
+    Checking accesskit_windows v0.35.1
+    Checking parley v0.11.1
+    Checking photocraft-compose v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocra
+ft\photocraft-main\crates\compose)
+    Checking photocraft-algo v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\
+photocraft-main\crates\algo)
+    Checking craft-psd v0.1.0 (https://github.com/storytold/craft-libs?rev=22
+84a6bf76b3d629b5e5bb2ca71e1c319d8dae5f#2284a6bf)
+    Checking strum v0.28.0
+    Checking craft-plist v0.1.0 (https://github.com/storytold/craft-libs?rev=
+e2e3b4213afb2b5e7651bc1b1a1cf72a8bb6313d#e2e3b421)
+   Compiling serde_spanned v1.1.1
+    Checking spin v0.9.9
+    Checking wasmi_collections v2.0.0
+    Checking xml v1.4.0
+   Compiling icu_casemap_data v2.3.0
+    Checking roxmltree v0.20.0
+    Checking imagesize v0.13.0
+    Checking usvg v0.45.1
+   Compiling toml v1.1.6+spec-1.1.0
+    Checking ureq-proto v0.6.5
+    Checking accesskit_winit v0.34.1
+    Checking tiny-skia v0.11.4
+    Checking craft-pdf v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking photocraft-format v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraf
+t\photocraft-main\crates\format)
+    Checking arboard v3.7.0
+    Checking icu_plurals v2.3.0
+    Checking icu_decimal v2.3.0
+    Checking photocraft-raw v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\p
+hotocraft-main\crates\raw)
+    Checking craft-affinity v0.1.0 (https://github.com/storytold/craft-libs?r
+ev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking icu_provider_adapters v2.3.0
+    Checking craft-psd v0.1.0 (https://github.com/storytold/craft-libs?rev=04
+0b5202f9ca2ecaedcaea9351fc095c0d3dc5e8#040b5202)
+    Checking craft-psd v0.1.0 (https://github.com/storytold/craft-libs?rev=5e
+2bc54a48c9f03e7ce4eca42775ce5cc051f5d6#5e2bc54a)
+    Checking craft-psd v0.1.0 (https://github.com/storytold/craft-libs?rev=58
+9842f0da5c5a11e71f39b70092dcb918b92f39#589842f0)
+    Checking craft-psd v0.1.0 (https://github.com/storytold/craft-libs?rev=b9
+c22554ce0fd2caccdb53b417082a2ff2ef178f#b9c22554)
+    Checking craft-crs v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking windows-sys v0.59.0
+    Checking photocraft-paint v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft
+\photocraft-main\crates\paint)
+    Checking type-map v0.5.1
+    Checking icu_provider_blob v2.3.0
+    Checking craft-winprint-gdi v0.1.0 (https://github.com/storytold/winprint
+.rs?rev=64e7afd4d1483512385012c340ecaaaf0f3beb7f#64e7afd4)
+    Checking winapi-util v0.1.11
+    Checking craft-pdn v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking craft-xcf v0.1.0 (https://github.com/storytold/craft-libs?rev=ad
+8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+   Compiling enum-map-derive v1.0.1
+    Checking windows-registry v0.6.1
+    Checking semver v1.0.28
+    Checking utf8-zero v0.8.1
+    Checking ttf-parser v0.25.1
+    Checking pollster v1.0.1
+    Checking sys-locale v0.3.2
+    Checking craft-docpath v0.1.0 (https://github.com/storytold/craft-libs?re
+v=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking cpufeatures v0.2.17
+    Checking percent-encoding v2.3.2
+    Checking ureq v3.5.0
+    Checking craft-i18n v0.1.0 (https://github.com/storytold/craft-libs?rev=a
+d8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking enum-map v3.1.0
+    Checking winreg v0.55.0
+   Compiling photocraft-ui-egui v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocra
+ft\photocraft-main\crates\ui-egui)
+    Checking same-file v1.0.6
+    Checking craft-print v0.1.0 (https://github.com/storytold/craft-libs?rev=
+ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking egui-wgpu v0.37.0 (https://github.com/storytold/egui.git?rev=6d5
+18fc799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking photocraft-io v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\ph
+otocraft-main\crates\io)
+    Checking egui-winit v0.37.0 (https://github.com/storytold/egui.git?rev=6d
+518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking photocraft-plugins v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocra
+ft\photocraft-main\crates\plugins)
+    Checking resvg v0.45.1
+    Checking photocraft-ops v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\p
+hotocraft-main\crates\ops)
+    Checking craft-pcraft-format v0.1.0 (https://github.com/storytold/craft-l
+ibs?rev=3e970577b9bb446967c2003ec8ecaf4f28b0768c#3e970577)
+    Checking verifysign v1.0.1
+    Checking craft-fonts-build v0.1.0 (https://github.com/storytold/craft-lib
+s?rev=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking dunce v1.0.5
+    Checking craft-update v0.1.0 (https://github.com/storytold/craft-libs?rev
+=ad8faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking craft-ui v0.1.0 (https://github.com/storytold/craft-libs?rev=ad8
+faa1c136ce289e9f132c9137d0cd913bd4ef6#ad8faa1c)
+    Checking egui_extras v0.37.0 (https://github.com/storytold/egui.git?rev=6
+d518fc799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking icu_casemap v2.3.0
+    Checking eframe v0.37.0 (https://github.com/storytold/egui.git?rev=6d518f
+c799681571963842f95b55a6b68431b15a#6d518fc7)
+    Checking photocraft-engine v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraf
+t\photocraft-main\crates\engine)
+    Checking photocraft-gpu v0.23.1 (C:\Dev\Source Code\ArtCraft\Photocraft\p
+hotocraft-main\crates\gpu)
+error[E0585]: found a documentation comment that doesn't document anything
+   --> crates\ui-egui\src\lib.rs:361:5
+    |
+356 | pub struct PhotocraftApp {
+    |            ------------- while parsing this struct
+...
+361 |     /// Canvas caches per (document, display): CPU textures hold monito
+r values; the GPU
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^^^^^^^^^^^^^^^^
+    |
+    = help: doc comments must come before what they document, if a comment wa
+s intended use `//`
+help: missing comma here
+    |
+360 |     pub environment_editor: environment_editor::EnvironmentEditorState,
+    |                                                                       +
+
+error: expected one of `,`, `.`, `?`, `}`, or an operator, found `;`
+  --> crates\ui-egui\src\app.rs:50:89
+   |
+43 | ... = Self {
+   |       ---- while parsing this struct
+...
+50 | ...ment_editor: crate::environment_editor::EnvironmentEditorState::new()
+;
+   |
+^
+   |
+|
+   |
+expected one of `,`, `.`, `?`, `}`, or an operator
+   |
+help: try adding a comma: `,`
+
+warning: unused import: `navigator::NavigatorCache`
+  --> crates\ui-egui\src\canvas.rs:90:16
+   |
+90 | pub(crate) use navigator::NavigatorCache;
+   |                ^^^^^^^^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(unused_imports)]` (part of `#[warn(unused)]`) on by defaul
+t
+
+warning: unused imports: `ClonePreviewCache`, `CommittedStroke`, and `LiveStr
+oke`
+   --> crates\ui-egui\src\canvas.rs:108:5
+    |
+108 |     ClonePreviewCache, CommittedStroke, LiveStroke, cancel_mixer_on_co.
+..
+    |     ^^^^^^^^^^^^^^^^^  ^^^^^^^^^^^^^^^  ^^^^^^^^^^
+
+warning: unused import: `PI`
+ --> crates\ui-egui\src\environment_editor.rs:7:35
+  |
+7 | use std::f32::consts::{FRAC_PI_2, PI, TAU};
+  |                                   ^^
+
+warning: unused import: `items::ItemCache`
+  --> crates\ui-egui\src\menus.rs:28:16
+   |
+28 | pub(crate) use items::ItemCache;
+   |                ^^^^^^^^^^^^^^^^
+
+warning: unused import: `SamplerReadouts`
+  --> crates\ui-egui\src\panels.rs:89:23
+   |
+89 | pub(crate) use info::{SamplerReadouts, sampler_readouts};
+   |                       ^^^^^^^^^^^^^^^
+
+warning: unused import: `Sender`
+  --> crates\ui-egui\src\lib.rs:69:33
+   |
+69 | use std::sync::mpsc::{Receiver, Sender};
+   |                                 ^^^^^^
+
+warning: unused import: `FinishedPen`
+   --> crates\ui-egui\src\tools\vector_ui.rs:278:29
+    |
+278 | pub(crate) use pen_resume::{FinishedPen, box_steps, pen_history_enable.
+..
+    |                             ^^^^^^^^^^^
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\canvas\canvas_tool_menu.rs:1867:41
+     |
+1867 |                         selected = Some(command.clone());
+     |                                    ---- ^^^^^^^^^^^^^^^ expected `Stri
+ng`, found `&str`
+     |                                    |
+     |                                    arguments to this enum variant are
+incorrect
+     |
+help: the type constructed contains `&str` due to the type of the argument pa
+ssed
+    --> crates\ui-egui\src\canvas\canvas_tool_menu.rs:1867:36
+     |
+1867 |                         selected = Some(command.clone());
+     |                                    ^^^^^---------------^
+     |                                         |
+     |                                         this argument influences the t
+ype of `Some`
+note: tuple variant defined here
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\core\src\option.rs:606:5
+     |
+ 606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+     |     ^^^^
+help: try using a conversion method
+     |
+1867 -                         selected = Some(command.clone());
+1867 +                         selected = Some(command.to_string());
+     |
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\canvas\display.rs:233:69
+    |
+233 |             let kind = photocraft_engine::commands::adjustment_kind(a);
+    |                        -------------------------------------------- ^ e
+xpected `&Adjustment`, found `Adjustment`
+    |                        |
+    |                        arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\adjust_params.rs:128:8
+    |
+128 | pub fn adjustment_kind(a: &Adjustment) -> &'static str {
+    |        ^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+233 |             let kind = photocraft_engine::commands::adjustment_kind(&a)
+;
+    |                                                                     +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\canvas\display.rs:234:93
+    |
+234 | ...&params, Some(a), snapshot.mode).unwrap_or_else(|_| a.clone());
+    |             ---- ^ expected `&Adjustment`, found `Adjustment`
+    |             |
+    |             arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `photocraft_doc::Adjustment` due to the t
+ype of the argument passed
+   --> crates\ui-egui\src\canvas\display.rs:234:88
+    |
+234 | ...params, Some(a), snapshot.mode).unwrap_or_else(|_| a.clone());
+    |            ^^^^^-^
+    |                 |
+    |                 this argument influences the type of `Some`
+note: tuple variant defined here
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:606:5
+    |
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+help: consider borrowing here
+    |
+234 |             let preview = photocraft_engine::adjust_params::from_params
+(kind, &params, Some(&a), snapshot.mode).unwrap_or_else(|_| a.clone());
+    |
+                     +
+
+error[E0277]: can't compare `str` with `&str`
+  --> crates\ui-egui\src\canvas\filter_preview.rs:67:20
+   |
+67 |     let k = if cmd == FADE { 1 } else { filter_preview_factor(app, &st..
+..
+   |                    ^^ no implementation for `str == &str`
+   |
+   = help: the trait `PartialEq<&str>` is not implemented for `str`
+help: consider dereferencing here
+   |
+67 |     let k = if cmd == *FADE { 1 } else { filter_preview_factor(app, &st.
+doc, &cmd, &params) };
+   |                       +
+
+error[E0308]: mismatched types
+  --> crates\ui-egui\src\canvas\filter_preview.rs:75:18
+   |
+75 |         command: cmd,
+   |                  ^^^ expected `String`, found `str`
+   |
+help: try using a conversion method
+   |
+75 |         command: cmd.to_string(),
+   |                     ++++++++++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\canvas\filter_preview.rs:322:65
+    |
+322 |         let kind = photocraft_engine::commands::adjustment_kind(a);
+    |                    -------------------------------------------- ^ expec
+ted `&Adjustment`, found `Adjustment`
+    |                    |
+    |                    arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\adjust_params.rs:128:8
+    |
+128 | pub fn adjustment_kind(a: &Adjustment) -> &'static str {
+    |        ^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+322 |         let kind = photocraft_engine::commands::adjustment_kind(&a);
+    |                                                                 +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\canvas\filter_preview.rs:323:89
+    |
+323 | ...&params, Some(a), proxy.mode).unwrap_or_else(|_| a.clone());
+    |             ---- ^ expected `&Adjustment`, found `Adjustment`
+    |             |
+    |             arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `photocraft_doc::Adjustment` due to the t
+ype of the argument passed
+   --> crates\ui-egui\src\canvas\filter_preview.rs:323:84
+    |
+323 | ...params, Some(a), proxy.mode).unwrap_or_else(|_| a.clone());
+    |            ^^^^^-^
+    |                 |
+    |                 this argument influences the type of `Some`
+note: tuple variant defined here
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:606:5
+    |
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+help: consider borrowing here
+    |
+323 |         let preview = photocraft_engine::adjust_params::from_params(kin
+d, &params, Some(&a), proxy.mode).unwrap_or_else(|_| a.clone());
+    |
+                 +
+
+error[E0614]: type `[f64; 4]` cannot be dereferenced
+   --> crates\ui-egui\src\canvas\snap_ui.rs:146:79
+    |
+146 | ...nMove { rect: r } => *r = rect,
+    |                         ^^ can't be dereferenced
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\control\dispatch.rs:1652:18
+     |
+1652 |         Ok(Some((name, doc))) => {
+     |                  ^^^^ doesn't have a size known at compile-time
+     |
+     = help: the trait `Sized` is not implemented for `str`
+     = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\dialogs\adjust_dialog.rs:89:65
+   |
+89 | ...("{PREFIX}{kind}"), base.clone());
+   |              ^^^^^^ doesn't have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `str`
+
+error[E0277]: the size for values of type `[[f32; 4]]` cannot be known at com
+pilation time
+   --> crates\ui-egui\src\dialogs\camera_raw_ui\open.rs:434:16
+    |
+434 | ...   && let Some(px) = app.session.active().and_then(|st| st.doc.laye.
+..
+    |              ^^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[[f32; 4]]`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\camera_raw_ui\open.rs:583:76
+    |
+583 | ... = photocraft_engine::smart_cmds::render_below_filter(&st.doc, sm, i
+...
+    |       --------------------------------------------------          ^^ ex
+pected `&SmartObject`, found `SmartObject`
+    |       |
+    |       arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\smart_cmds\rendering.rs:402:8
+    |
+402 | pub fn render_below_filter(doc: &Document, sm: &SmartObject, index: us.
+..
+    |        ^^^^^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+583 |     let surf = photocraft_engine::smart_cmds::render_below_filter(&st.d
+oc, &sm, index)
+    |
+    +
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\dialogs\camera_raw_ui\sidecar.rs:94:12
+    |
+ 94 |     if let Err(e) = write(&sidecar, &bytes) {
+    |            ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Err`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by this bound in `Err`
+...
+567 |     Err(#[stable(feature = "rust1", since = "1.0.0")] E),
+    |     --- required by a bound in this tuple variant
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\dialogs\export_dialog.rs:1173:62
+     |
+1173 | ...       poll_or_start_preview(ui, key, &sig, doc.clone(), f, source.
+..
+     |           ---------------------                ^^^^^^^^^^^ expected `A
+rc<Document>`, found `Document`
+     |           |
+     |           arguments to this function are incorrect
+     |
+     = note: expected struct `std::sync::Arc<Document>`
+                found struct `Document`
+note: function defined here
+    --> crates\ui-egui\src\dialogs\export_dialog.rs:743:4
+     |
+ 743 | fn poll_or_start_preview(
+     |    ^^^^^^^^^^^^^^^^^^^^^
+...
+ 747 |     doc: Arc<Document>,
+     |     ------------------
+help: call `Into::into` on this expression to convert `photocraft_doc::Docume
+nt` into `std::sync::Arc<photocraft_doc::Document>`
+     |
+1173 |                         poll_or_start_preview(ui, key, &sig, doc.clone
+().into(), f, source_profile.clone())
+     |
+  +++++++
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\dialogs\export_dialog.rs:1175:81
+     |
+1175 | ...e(|_| doc.clone());
+     |          ^^^^^^^^^^^ expected `Arc<Document>`, found `Document`
+     |
+     = note: expected struct `std::sync::Arc<Document>`
+                found struct `Document`
+help: call `Into::into` on this expression to convert `photocraft_doc::Docume
+nt` into `std::sync::Arc<photocraft_doc::Document>`
+     |
+1175 |                         let source = source_document(app, f).unwrap_or
+_else(|_| doc.clone().into());
+     |
+                     +++++++
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\dialogs\export_dialog.rs:1202:69
+     |
+1202 | ...ct = poll_or_start_exact_estimate(ui, key, &sig, doc.clone(), f, s.
+..
+     |         ----------------------------                ^^^^^^^^^^^ expect
+ed `Arc<Document>`, found `Document`
+     |         |
+     |         arguments to this function are incorrect
+     |
+     = note: expected struct `std::sync::Arc<Document>`
+                found struct `Document`
+note: function defined here
+    --> crates\ui-egui\src\dialogs\export_dialog.rs:816:4
+     |
+ 816 | fn poll_or_start_exact_estimate(
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+...
+ 820 |     doc: Arc<Document>,
+     |     ------------------
+help: call `Into::into` on this expression to convert `photocraft_doc::Docume
+nt` into `std::sync::Arc<photocraft_doc::Document>`
+     |
+1202 |             let exact = poll_or_start_exact_estimate(ui, key, &sig, do
+c.clone().into(), f, source_profile.clone()).flatten();
+     |
+         +++++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\filter_dialog.rs:373:59
+    |
+373 |         let remember = crate::select_mask_view::remembers(saved);
+    |                        ---------------------------------- ^^^^^ expecte
+d `&Map<String, Value>`, found `Map<String, Value>`
+    |                        |
+    |                        arguments to this function are incorrect
+    |
+    = note: expected reference `&Map<_, _>`
+                  found struct `Map<_, _>`
+note: function defined here
+   --> crates\ui-egui\src\canvas\select_mask_view.rs:215:8
+    |
+215 | pub fn remembers(fields: &Map<String, Value>) -> bool {
+    |        ^^^^^^^^^ ---------------------------
+help: consider borrowing here
+    |
+373 |         let remember = crate::select_mask_view::remembers(&saved);
+    |                                                           +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\gallery_ui.rs:338:75
+    |
+338 | ... = photocraft_engine::smart_cmds::render_below_filter(&st.doc, sm, i
+...
+    |       --------------------------------------------------          ^^ ex
+pected `&SmartObject`, found `SmartObject`
+    |       |
+    |       arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\smart_cmds\rendering.rs:402:8
+    |
+402 | pub fn render_below_filter(doc: &Document, sm: &SmartObject, index: us.
+..
+    |        ^^^^^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+338 |     let src = photocraft_engine::smart_cmds::render_below_filter(&st.do
+c, &sm, index)
+    |
+   +
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\dialogs\layer_style\color_picker.rs:150:9
+    |
+150 |     let Some(color) = d.fields.get("color").and_then(Value::as_str).an.
+..
+    |         ^^^^^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\liquify_ui.rs:699:93
+    |
+699 | ... = photocraft_engine::smart_cmds::render_below_filter(doc, sm, sm.s.
+..
+    |       --------------------------------------------------      ^^ expect
+ed `&SmartObject`, found `SmartObject`
+    |       |
+    |       arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\smart_cmds\rendering.rs:402:8
+    |
+402 | pub fn render_below_filter(doc: &Document, sm: &SmartObject, index: us.
+..
+    |        ^^^^^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+699 |         && let Ok(Some(filtered)) = photocraft_engine::smart_cmds::rend
+er_below_filter(doc, &sm, sm.smart_filters.len())
+    |
+                     +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\liquify_ui.rs:720:76
+    |
+720 | ... = photocraft_engine::smart_cmds::render_below_filter(&st.doc, sm, i
+...
+    |       --------------------------------------------------          ^^ ex
+pected `&SmartObject`, found `SmartObject`
+    |       |
+    |       arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\smart_cmds\rendering.rs:402:8
+    |
+402 | pub fn render_below_filter(doc: &Document, sm: &SmartObject, index: us.
+..
+    |        ^^^^^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+720 |     let surf = photocraft_engine::smart_cmds::render_below_filter(&st.d
+oc, &sm, index)
+    |
+    +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\liquify_ui.rs:748:86
+    |
+748 | ... = photocraft_engine::smart_cmds::render_below_filter(&st.doc, sm, 0
+...
+    |       --------------------------------------------------          ^^ ex
+pected `&SmartObject`, found `SmartObject`
+    |       |
+    |       arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\smart_cmds\rendering.rs:402:8
+    |
+402 | pub fn render_below_filter(doc: &Document, sm: &SmartObject, index: us.
+..
+    |        ^^^^^^^^^^^^^^^^^^^
+help: consider borrowing here
+    |
+748 |             let placed = photocraft_engine::smart_cmds::render_below_fi
+lter(&st.doc, &sm, 0).ok().flatten();
+    |
+              +
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\dialogs\pattern_fill_ui.rs:232:32
+    |
+232 |             if !link.unwrap_or(*layer_link) {
+    |                                ^^^^^^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\dialogs\shape_fill_ui.rs:242:64
+    |
+242 |         photocraft_engine::vector_cmds::refresh_shape(&st.doc, sh);
+    |         ---------------------------------------------          ^^ expec
+ted `&mut ShapeLayer`, found `ShapeLayer`
+    |         |
+    |         arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\vector_cmds\shape.rs:89:8
+    |
+ 89 | pub fn refresh_shape(doc: &Document, sh: &mut ShapeLayer) {
+    |        ^^^^^^^^^^^^^
+help: consider mutably borrowing here
+    |
+242 |         photocraft_engine::vector_cmds::refresh_shape(&st.doc, &mut sh)
+;
+    |                                                                ++++
+
+error[E0689]: can't call method `min` on ambiguous numeric type `{float}`
+  --> crates\ui-egui\src\dialogs\smart_filter_dialog.rs:98:89
+   |
+98 | ....height).max(1) as f64 * 100.0).min(100.0);
+   |                                    ^^^
+
+error[E0614]: type `photocraft_doc::Color` cannot be dereferenced
+   --> crates\ui-egui\src\dialogs\solid_fill_ui.rs:131:20
+    |
+131 |     if !is_edit(f, *original, st.doc.mode) {
+    |                    ^^^^^^^^^ can't be dereferenced
+
+warning: use of deprecated associated function `egui::Id::new`: Use `Id::uniq
+ue` (for a globally unique id) or `IdSalt::new` (for a locally unique salt) i
+nstead
+  --> crates\ui-egui\src\environment_editor_ui.rs:17:23
+   |
+17 |         .id(egui::Id::new("environment-editor"))
+   |                       ^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\file_dialog.rs:398:20
+    |
+398 | ...   && let Some(path) = self.file_dialog.as_ref().and_then(|p| p.sav.
+..
+    |              ^^^^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\jobs_ui.rs:573:16
+    |
+573 |         if let Some(l) = label {
+    |                ^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0618]: expected function, found `(&[&str; 1], &str, std::option::Optio
+n<_>, &str)`
+   --> crates\ui-egui\src\menu_catalog.rs:778:5
+    |
+778 |     (&["Window"], "Environment Editor", None, "window.environmentEditor
+")
+    |     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+^^- help: consider separating array elements with a comma: `,`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:325:85
+    |
+325 | ...lone().map(|p| (photocraft_engine::file_cmds::holds_at(&d.doc, &p),.
+..
+    |                ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all function arguments must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:327:37
+    |
+327 |                         Some((true, path, d)) => {
+    |                                     ^^^^ doesn't have a size known at c
+ompile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\menus\invoke.rs:331:70
+    |
+331 | ...|| app.save_in_place(path, crate::FormatChoices::default()))
+    |           ------------- ^^^^ expected `String`, found `str`
+    |           |
+    |           arguments to this method are incorrect
+    |
+note: method defined here
+   --> crates\ui-egui\src\app\files.rs:316:19
+    |
+316 |     pub(crate) fn save_in_place(&mut self, path: String, choices: Form.
+..
+    |                   ^^^^^^^^^^^^^            ------------
+help: try using a conversion method
+    |
+331 |                                 .unwrap_or_else(|| app.save_in_place(pa
+th.to_string(), crate::FormatChoices::default()))
+    |
+  ++++++++++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:333:38
+    |
+333 | ...   Some((false, path, d)) if photocraft_engine::file_cmds::saves_in.
+..
+    |                    ^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:348:38
+    |
+348 | ...   Some((false, path, d)) if crate::saves_flat_in_place(&d.doc, &pa.
+..
+    |                    ^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\menus\invoke.rs:353:140
+    |
+353 | ... app.save_flat_in_place(path, choices))
+    |         ------------------ ^^^^ expected `String`, found `str`
+    |         |
+    |         arguments to this method are incorrect
+    |
+note: method defined here
+   --> crates\ui-egui\src\app\files.rs:335:19
+    |
+335 |     pub(crate) fn save_flat_in_place(&mut self, path: String, choices:.
+..
+    |                   ^^^^^^^^^^^^^^^^^^            ------------
+help: try using a conversion method
+    |
+353 |                             crate::disk_change_prompt::intercept(app, d
+oc, &path, false, choices).unwrap_or_else(|| app.save_flat_in_place(path.to_s
+tring(), choices))
+    |
+                                                                        +++++
++++++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:379:26
+    |
+379 |                     Some(p) => open_path(app, &p),
+    |                          ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:379:21
+    |
+379 |                     Some(p) => open_path(app, &p),
+    |                     ^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\menus\invoke.rs:378:83
+     |
+ 378 | ...).ok()).and_then(|i| app.ui.recent_files.get(i).cloned()) {
+     |            ^^^^^^^^ doesn't have a size known at compile-time
+     |
+     = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `std::option::Option::<T>::and
+_then`
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\core\src\option.rs:1537:27
+     |
+1537 |     pub const fn and_then<U, F>(self, f: F) -> Option<U>
+     |                           ^ required by the implicit `Sized` requireme
+nt on this type parameter in `Option::<T>::and_then`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\invoke.rs:380:21
+    |
+380 |                     None => Err("no such recent file".to_string()),
+    |                     ^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `std::prelude::v1::None`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `std::prelude::v1::None`
+...
+602 |     None,
+    |     ---- required by a bound in this unit variant
+
+error[E0277]: can't compare `str` with `&str`
+   --> crates\ui-egui\src\menus\native_menu.rs:746:15
+    |
+746 |         if id == MINIMIZE {
+    |               ^^ no implementation for `str == &str`
+    |
+    = help: the trait `PartialEq<&str>` is not implemented for `str`
+help: consider dereferencing here
+    |
+746 |         if id == *MINIMIZE {
+    |                  +
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\native_menu.rs:745:9
+    |
+745 |     for id in clicks {
+    |         ^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\native_menu.rs:745:5
+    |
+745 | /     for id in clicks {
+746 | |         if id == MINIMIZE {
+747 | |             ctx.send_viewport_cmd(egui::ViewportCommand::Minimized(t.
+..
+748 | |             continue;
+...   |
+758 | |     }
+    | |_____^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `std::option::Option`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Option`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\workspace_ui.rs:371:84
+    |
+371 | ... dialog `{kind}`"))?;
+    |             ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+
+error[E0658]: use of unstable library feature `str_as_str`
+   --> crates\ui-egui\src\menus\workspace_ui.rs:443:24
+    |
+443 |             match kind.as_str() {
+    |                        ^^^^^^
+    |
+    = note: see issue #130366 <https://github.com/rust-lang/rust/issues/13036
+6> for more information
+
+error[E0277]: can't compare `str` with `&str`
+   --> crates\ui-egui\src\menus\workspace_ui.rs:500:38
+    |
+500 | ...   let ok = if kind == "deleteWorkspace" { tl!("Delete") } else { t.
+..
+    |                        ^^ no implementation for `str == &str`
+    |
+    = help: the trait `PartialEq<&str>` is not implemented for `str`
+help: consider dereferencing here
+    |
+500 |                     let ok = if kind == *"deleteWorkspace" { tl!("Delet
+e") } else { tl!("OK") };
+    |                                         +
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\workspace_ui.rs:516:35
+    |
+516 |             app.ui.shell.dialog = Some((kind, f));
+    |                                   ^^^^ doesn't have a size known at com
+pile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\workspace_ui.rs:516:35
+    |
+516 |             app.ui.shell.dialog = Some((kind, f));
+    |                                   ^^^^^^^^^^^^^^^ doesn't have a size k
+nown at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\workspace_ui.rs:523:39
+    |
+523 |         None => app.ui.shell.dialog = Some((kind, f)),
+    |                                       ^^^^ doesn't have a size known at
+ compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\menus\workspace_ui.rs:523:39
+    |
+523 |         None => app.ui.shell.dialog = Some((kind, f)),
+    |                                       ^^^^^^^^^^^^^^^ doesn't have a si
+ze known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\monitor_status.rs:183:58
+    |
+183 |             crate::i18n::fmt(tl!(template), &[("reason", reason)])
+    |                                                          ^^^^^^ expecte
+d `&str`, found `String`
+    |
+help: consider borrowing here
+    |
+183 |             crate::i18n::fmt(tl!(template), &[("reason", &reason)])
+    |                                                          +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\actions.rs:439:44
+    |
+439 |                     conflicts.primary.push(other.clone());
+    |                                       ---- ^^^^^^^^^^^^^ expected `Stri
+ng`, found `&str`
+    |                                       |
+    |                                       arguments to this method are inco
+rrect
+    |
+note: method defined here
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\vec\mod.rs:995:12
+    |
+995 |     pub fn push(&mut self, value: T) {
+    |            ^^^^
+help: try using a conversion method
+    |
+439 -                     conflicts.primary.push(other.clone());
+439 +                     conflicts.primary.push(other.to_string());
+    |
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\actions.rs:441:32
+    |
+441 |                     set.insert(other.clone(), json!(""));
+    |                         ------ ^^^^^^^^^^^^^ expected `String`, found `
+&str`
+    |                         |
+    |                         arguments to this method are incorrect
+    |
+note: method defined here
+   --> C:\Users\ÄGARE\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\se
+rde_json-1.0.154\src\map.rs:137:12
+    |
+137 |     pub fn insert(&mut self, k: String, v: Value) -> Option<Value> {
+    |            ^^^^^^
+help: try using a conversion method
+    |
+441 -                     set.insert(other.clone(), json!(""));
+441 +                     set.insert(other.to_string(), json!(""));
+    |
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\actions.rs:451:51
+    |
+451 | ...nate.push((other.clone(), assigned.clone()));
+    |               ^^^^^^^^^^^^^ expected `String`, found `&str`
+    |
+help: try using a conversion method
+    |
+451 -                         conflicts.alternate.push((other.clone(), assign
+ed.clone()));
+451 +                         conflicts.alternate.push((other.to_string(), as
+signed.clone()));
+    |
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\actions.rs:453:43
+    |
+453 | ...rnates.insert(other.clone(), json!(remaining));
+    |           ------ ^^^^^^^^^^^^^ expected `String`, found `&str`
+    |           |
+    |           arguments to this method are incorrect
+    |
+note: method defined here
+   --> C:\Users\ÄGARE\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\se
+rde_json-1.0.154\src\map.rs:137:12
+    |
+137 |     pub fn insert(&mut self, k: String, v: Value) -> Option<Value> {
+    |            ^^^^^^
+help: try using a conversion method
+    |
+453 -                         alternates.insert(other.clone(), json!(remainin
+g));
+453 +                         alternates.insert(other.to_string(), json!(rema
+ining));
+    |
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:505:13
+    |
+505 |         for key in pending.primary {
+    |             ^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:505:9
+    |
+505 | / ...   for key in pending.primary {
+506 | | ...       if losing(&key)
+507 | | ...           && prefs.shortcuts.get(&key).and_then(|assigned| photo.
+..
+...   |
+511 | | ...   }
+    | |_______^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `std::option::Option`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Option`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:509:25
+    |
+509 |                 primary.insert(key);
+    |                         ^^^^^^ --- `str` doesn't satisfy the trait boun
+d
+    |                         |
+    |                         doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `BTreeSet::<T, A>::insert`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\set.rs:349:6
+    |
+349 | impl<T, A: Allocator + Clone> BTreeSet<T, A> {
+    |      ^ required by this bound in `BTreeSet::<T, A>::insert`
+...
+900 |     pub fn insert(&mut self, value: T) -> bool
+    |            ------ required by a bound in this associated function
+help: consider borrowing this argument
+    |
+509 |                 primary.insert(&key);
+    |                                +
+help: consider mutably borrowing this argument
+    |
+509 |                 primary.insert(&mut key);
+    |                                ++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:497:23
+    |
+497 |     let mut primary = BTreeSet::new();
+    |                       ^^^^^^^^ doesn't have a size known at compile-tim
+e
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `BTreeSet`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\set.rs:79:5
+    |
+ 78 | pub struct BTreeSet<
+    |            -------- required by a bound in this struct
+ 79 |     T,
+    |     ^ required by the implicit `Sized` requirement on this type paramet
+er in `BTreeSet`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:497:23
+    |
+497 |     let mut primary = BTreeSet::new();
+    |                       ^^^^^^^^^^^^^^^ doesn't have a size known at comp
+ile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `BTreeSet::<T>::new`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\set.rs:328:6
+    |
+328 | impl<T> BTreeSet<T> {
+    |      ^ required by this bound in `BTreeSet::<T>::new`
+...
+344 |     pub const fn new() -> BTreeSet<T> {
+    |                  --- required by a bound in this associated function
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:512:14
+    |
+512 |         for (key, original) in pending.alternate {
+    |              ^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:512:32
+    |
+512 |         for (key, original) in pending.alternate {
+    |                                ^^^^^^^^^^^^^^^^^ doesn't have a size kn
+own at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\panels\actions.rs:515:22
+     |
+ 515 |                     .entry(key)
+     |                      ^^^^^ --- `str` doesn't satisfy the trait bound
+     |                      |
+     |                      doesn't have a size known at compile-time
+     |
+     = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `BTreeMap::<K, V, A>::entry`
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\alloc\src\collections\btree\map.rs:700:6
+     |
+ 700 | impl<K, V, A: Allocator + Clone> BTreeMap<K, V, A> {
+     |      ^ required by this bound in `BTreeMap::<K, V, A>::entry`
+...
+1501 |     pub fn entry(&mut self, key: K) -> Entry<'_, K, V, A>
+     |            ----- required by a bound in this associated function
+help: consider borrowing this argument
+     |
+ 515 |                     .entry(&key)
+     |                            +
+help: consider mutably borrowing this argument
+     |
+ 515 |                     .entry(&mut key)
+     |                            ++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:498:25
+    |
+498 |     let mut alternate = BTreeMap::new();
+    |                         ^^^^^^^^ doesn't have a size known at compile-t
+ime
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `BTreeMap`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\map.rs:190:5
+    |
+189 | pub struct BTreeMap<
+    |            -------- required by a bound in this struct
+190 |     K,
+    |     ^ required by the implicit `Sized` requirement on this type paramet
+er in `BTreeMap`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:498:25
+    |
+498 |     let mut alternate = BTreeMap::new();
+    |                         ^^^^^^^^^^^^^^^ doesn't have a size known at co
+mpile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `BTreeMap::<K, V>::new`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\map.rs:632:6
+    |
+632 | impl<K, V> BTreeMap<K, V> {
+    |      ^ required by this bound in `BTreeMap::<K, V>::new`
+...
+651 |     pub const fn new() -> BTreeMap<K, V> {
+    |                  --- required by a bound in this associated function
+
+error[E0599]: the method `or_insert` exists for enum `std::collections::btree
+_map::Entry<'_, str, _>`, but its trait bounds were not satisfied
+   --> crates\ui-egui\src\panels\actions.rs:516:22
+    |
+514 | /                 alternate
+515 | |                     .entry(key)
+516 | |                     .or_insert(original)
+    | |                     -^^^^^^^^^ method cannot be called on `std::colle
+ctions::btree_map::Entry<'_, str, _>` due to unsatisfied trait bounds
+    | |_____________________|
+    |
+    |
+    = note: the following trait bounds were not satisfied:
+            `str: Sized`
+
+error[E0599]: the method `is_empty` exists for struct `BTreeSet<str>`, but it
+s trait bounds were not satisfied
+   --> crates\ui-egui\src\panels\actions.rs:521:17
+    |
+521 |     if !primary.is_empty() || !alternate.is_empty() {
+    |                 ^^^^^^^^ method cannot be called on `BTreeSet<str>` due
+ to unsatisfied trait bounds
+    |
+    = note: the following trait bounds were not satisfied:
+            `str: Sized`
+
+error[E0599]: the method `is_empty` exists for struct `BTreeMap<str, _>`, but
+ its trait bounds were not satisfied
+   --> crates\ui-egui\src\panels\actions.rs:521:42
+    |
+521 |     if !primary.is_empty() || !alternate.is_empty() {
+    |                                          ^^^^^^^^ method cannot be call
+ed on `BTreeMap<str, _>` due to unsatisfied trait bounds
+    |
+    = note: the following trait bounds were not satisfied:
+            `str: Sized`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\actions.rs:523:24
+    |
+523 |             for key in primary {
+    |                        ^^^^^^^ doesn't have a size known at compile-tim
+e
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `BTreeSet`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\alloc\src\collections\btree\set.rs:79:5
+    |
+ 78 | pub struct BTreeSet<
+    |            -------- required by a bound in this struct
+ 79 |     T,
+    |     ^ required by the implicit `Sized` requirement on this type paramet
+er in `BTreeSet`
+
+error[E0277]: `BTreeSet<str>` is not an iterator
+    --> crates\ui-egui\src\panels\actions.rs:523:24
+     |
+ 523 |             for key in primary {
+     |                        ^^^^^^^ `BTreeSet<str>` is not an iterator
+     |
+     = help: the trait `IntoIterator` is not implemented for `BTreeSet<str>`
+help: the following other types implement trait `IntoIterator`
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\alloc\src\collections\btree\set.rs:1520:1
+     |
+1520 | impl<T, A: Allocator + Clone> IntoIterator for BTreeSet<T, A> {
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ `BTreeSe
+t<T, A>`
+...
+1542 | impl<'a, T, A: Allocator + Clone> IntoIterator for &'a BTreeSet<T, A>
+{
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`&BTreeSet<T, A>`
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2501:65
+     |
+2501 | ..., 3.0, button_fill(swatch, &t));
+     |           ----------- ^^^^^^ expected `&str`, found `String`
+     |           |
+     |           arguments to this function are incorrect
+     |
+note: function defined here
+    --> crates\ui-egui\src\panels\actions.rs:1096:4
+     |
+1096 | fn button_fill(color: &str, t: &Tokens) -> Color32 {
+     |    ^^^^^^^^^^^ -----------
+help: consider borrowing here
+     |
+2501 |                 ui.painter().rect_filled(rect, 3.0, button_fill(&swatc
+h, &t));
+     |                                                                 +
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2524:66
+     |
+2524 | ... { button_label_color(swatch, &t) } else { t.text };
+     |       ------------------ ^^^^^^ expected `&str`, found `String`
+     |       |
+     |       arguments to this function are incorrect
+     |
+note: function defined here
+    --> crates\ui-egui\src\panels\actions.rs:1110:4
+     |
+1110 | fn button_label_color(color: &str, t: &Tokens) -> Color32 {
+     |    ^^^^^^^^^^^^^^^^^^ -----------
+help: consider borrowing here
+     |
+2524 |             let name_color = if button_mode { button_label_color(&swat
+ch, &t) } else { t.text };
+     |                                                                  +
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2565:48
+     |
+2565 |             action_context_menu(app, &resp, i, swatch);
+     |             -------------------                ^^^^^^ expected `&str`,
+ found `String`
+     |             |
+     |             arguments to this function are incorrect
+     |
+note: function defined here
+    --> crates\ui-egui\src\panels\actions.rs:2362:4
+     |
+2362 | fn action_context_menu(app: &mut PhotocraftApp, response: &egui::Respo
+nse, index: usize, swatch: &str) {
+     |    ^^^^^^^^^^^^^^^^^^^
+                   ------------
+help: consider borrowing here
+     |
+2565 |             action_context_menu(app, &resp, i, &swatch);
+     |                                                +
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2575:64
+     |
+2575 | ...Context { action: i, x0, steps, disabled, dialogs, reveal, tokens:.
+..
+     |                             ^^^^^ expected `&[(String, Value)]`, found
+ `Vec<(String, Value)>`
+     |
+     = note: expected reference `&[(std::string::String, serde_json::Value)]`
+                   found struct `std::vec::Vec<(std::string::String, serde_js
+on::Value)>`
+help: consider borrowing here
+     |
+2575 |                 let context = StepRowsContext { action: i, x0, steps:
+&steps, disabled, dialogs, reveal, tokens: &t };
+     |                                                                +++++++
++
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2575:71
+     |
+2575 | ... action: i, x0, steps, disabled, dialogs, reveal, tokens: &t };
+     |                           ^^^^^^^^ expected `&BTreeSet<usize>`, found
+`BTreeSet<usize>`
+     |
+     = note: expected reference `&BTreeSet<_>`
+                   found struct `BTreeSet<_>`
+help: consider borrowing here
+     |
+2575 |                 let context = StepRowsContext { action: i, x0, steps,
+disabled: &disabled, dialogs, reveal, tokens: &t };
+     |
++++++++++++
+
+error[E0308]: mismatched types
+    --> crates\ui-egui\src\panels\actions.rs:2575:81
+     |
+2575 | ...d, dialogs, reveal, tokens: &t };
+     |       ^^^^^^^ expected `&BTreeSet<usize>`, found `BTreeSet<usize>`
+     |
+     = note: expected reference `&BTreeSet<_>`
+                   found struct `BTreeSet<_>`
+help: consider borrowing here
+     |
+2575 |                 let context = StepRowsContext { action: i, x0, steps,
+disabled, dialogs: &dialogs, reveal, tokens: &t };
+     |
+          ++++++++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\doc_props_ui.rs:235:24
+    |
+235 |             for (icon, tip, id, on) in [
+    |                        ^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\doc_props_ui.rs:235:40
+    |
+235 |   ...   for (icon, tip, id, on) in [
+    |  __________________________________^
+236 | | ...       ("ruler", crate::shortcuts::tip_label(app, "Rulers", "view.
+..
+237 | | ...       ("grid-3x3", crate::shortcuts::tip_label(app, "Grid", "vie.
+..
+238 | | ...       ("grid-2x2", crate::shortcuts::tip_label(app, "Pixel Grid".
+..
+239 | | ...   ] {
+    | |_______^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\panels\history.rs:46:18
+   |
+46 |         for (i, (e, is_redo)) in all.enumerate() {
+   |                  ^ doesn't have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `str`
+   = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\panels\history.rs:46:34
+   |
+46 |         for (i, (e, is_redo)) in all.enumerate() {
+   |                                  ^^^^^^^^^^^^^^^ doesn't have a size kno
+wn at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `str`
+   = note: only the last element of a tuple may have a dynamically sized type
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\panel_docking.rs:125:38
+    |
+125 |             minimum: columns_minimum(columns),
+    |                      --------------- ^^^^^^^ expected `&[Column<String>
+]`, found `Vec<Column<String>>`
+    |                      |
+    |                      arguments to this function are incorrect
+    |
+    = note: expected reference `&[craft_ui::docking::Column<std::string::Stri
+ng>]`
+                  found struct `std::vec::Vec<craft_ui::docking::Column<std::
+string::String>>`
+note: function defined here
+   --> crates\ui-egui\src\panels\panel_docking.rs:178:4
+    |
+178 | fn columns_minimum(columns: &[Column<String>]) -> f32 {
+    |    ^^^^^^^^^^^^^^^ --------------------------
+help: consider borrowing here
+    |
+125 |             minimum: columns_minimum(&columns),
+    |                                      +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\panels\panel_docking.rs:126:38
+    |
+126 |             maximum: columns_maximum(columns),
+    |                      --------------- ^^^^^^^ expected `&[Column<String>
+]`, found `Vec<Column<String>>`
+    |                      |
+    |                      arguments to this function are incorrect
+    |
+    = note: expected reference `&[craft_ui::docking::Column<std::string::Stri
+ng>]`
+                  found struct `std::vec::Vec<craft_ui::docking::Column<std::
+string::String>>`
+note: function defined here
+   --> crates\ui-egui\src\panels\panel_docking.rs:189:4
+    |
+189 | fn columns_maximum(columns: &[Column<String>]) -> f32 {
+    |    ^^^^^^^^^^^^^^^ --------------------------
+help: consider borrowing here
+    |
+126 |             maximum: columns_maximum(&columns),
+    |                                      +
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\panel_docking.rs:873:36
+    |
+873 | ...nimized { panel, minimized } if in_dock_column(&layout, &panel) => {
+    |              ^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\panel_docking.rs:873:13
+    |
+873 |             Action::SetMinimized { panel, minimized } if in_dock_colum.
+..
+    |             ^^^^^^^^^^^^^^^^^^^^ doesn't have a size known at compile-t
+ime
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `craft_ui::docking::Action`
+   --> C:\Users\ÄGARE\.cargo\git\checkouts\craft-libs-d830b991a08c6c3d\ad8faa
+1\crates\ui\src\docking\model.rs:365:17
+    |
+365 | pub enum Action<P> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Action`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\panel_docking.rs:869:19
+    |
+869 |     for action in actions {
+    |                   ^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `craft_ui::docking::Action`
+   --> C:\Users\ÄGARE\.cargo\git\checkouts\craft-libs-d830b991a08c6c3d\ad8faa
+1\crates\ui\src\docking\model.rs:365:17
+    |
+365 | pub enum Action<P> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Action`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\panels\panel_docking.rs:876:54
+    |
+876 | ...w.panel.layout", json!({"action": action})),
+    |                     ^^^^^^^^^^^^^^^^^^^^^^^^^ doesn't have a size known
+ at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `craft_ui::docking::Action`
+   --> C:\Users\ÄGARE\.cargo\git\checkouts\craft-libs-d830b991a08c6c3d\ad8faa
+1\crates\ui\src\docking\model.rs:365:17
+    |
+365 | pub enum Action<P> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Action`
+    = note: this error originates in the macro `$crate::json_internal` which
+comes from the expansion of the macro `json` (in Nightly builds, run with -Z
+macro-backtrace for more info)
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\updates_ui.rs:101:38
+    |
+101 |             updater.offer(release_of(release));
+    |                           ---------- ^^^^^^^ expected `&Release`, found
+ `Release`
+    |                           |
+    |                           arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\ui-egui\src\updates_ui.rs:39:4
+    |
+ 39 | fn release_of(found: &photocraft_engine::updates_cmds::Release) -> cra.
+..
+    |    ^^^^^^^^^^ ------------------------------------------------
+help: consider borrowing here
+    |
+101 |             updater.offer(release_of(&release));
+    |                                      +
+
+error[E0277]: the size for values of type `[u8]` cannot be known at compilati
+on time
+  --> crates\ui-egui\src\app\clipboard.rs:43:18
+   |
+43 |         let Some(source) = source else {
+   |                  ^^^^^^ doesn't have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `[u8]`
+   = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `[u8]` cannot be known at compilati
+on time
+   --> crates\ui-egui\src\app\clipboard.rs:43:13
+    |
+ 43 |         let Some(source) = source else {
+    |             ^^^^^^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[u8]`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+warning: method call on a diverging inference variable
+   --> crates\ui-egui\src\app\clipboard.rs:130:27
+    |
+130 | ...   let image = image.filter(|(w, h, bytes)| *w > 0 && *h > 0 && byt.
+..
+    |                         ^^^^^^
+    |
+    = help: consider providing a type annotation
+    = warning: this was previously accepted by the compiler but is being phas
+ed out; it will become a hard error in a future release!
+    = note: for more information, see issue #156047 <https://github.com/rust-
+lang/rust/issues/156047>
+    = note: `#[warn(method_call_on_diverging_infer_var)]` (part of `#[warn(fu
+ture_incompatible)]`) on by default
+
+error[E0599]: `!` is not an iterator
+   --> crates\ui-egui\src\app\clipboard.rs:130:27
+    |
+130 | ...   let image = image.filter(|(w, h, bytes)| *w > 0 && *h > 0 && byt.
+..
+    |                         ^^^^^^ `!` is not an iterator
+    |
+    = note: the following trait bounds were not satisfied:
+            `!: Iterator`
+            which is required by `&mut !: Iterator`
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\app\files.rs:191:12
+    |
+191 |         Ok(warnings)
+    |         -- ^^^^^^^^ expected `Vec<String>`, found `[String]`
+    |         |
+    |         arguments to this enum variant are incorrect
+    |
+    = note: expected struct `std::vec::Vec<std::string::String>`
+                found slice `[std::string::String]`
+help: the type constructed contains `[std::string::String]` due to the type o
+f the argument passed
+   --> crates\ui-egui\src\app\files.rs:191:9
+    |
+191 |         Ok(warnings)
+    |         ^^^--------^
+    |            |
+    |            this argument influences the type of `Ok`
+note: tuple variant defined here
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:562:5
+    |
+562 |     Ok(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^
+help: try using a conversion method
+    |
+191 |         Ok(warnings.to_vec())
+    |                    +++++++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\app\files.rs:601:24
+    |
+601 |         Ok(Some((path, warnings)))
+    |                        ^^^^^^^^ expected `Vec<String>`, found `[String]
+`
+    |
+    = note: expected struct `std::vec::Vec<std::string::String>`
+                found slice `[std::string::String]`
+help: try using a conversion method
+    |
+601 |         Ok(Some((path, warnings.to_vec())))
+    |                                +++++++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\app\frame.rs:112:14
+    |
+112 |         for (name, bytes) in arrived {
+    |              ^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\app\frame.rs:112:30
+    |
+112 |         for (name, bytes) in arrived {
+    |                              ^^^^^^^ doesn't have a size known at compi
+le-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0277]: the size for values of type `[u8]` cannot be known at compilati
+on time
+   --> crates\ui-egui\src\app\frame.rs:112:20
+    |
+112 |         for (name, bytes) in arrived {
+    |                    ^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[u8]`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `[u8]` cannot be known at compilati
+on time
+   --> crates\ui-egui\src\app\frame.rs:112:30
+    |
+112 |         for (name, bytes) in arrived {
+    |                              ^^^^^^^ doesn't have a size known at compi
+le-time
+    |
+    = help: within `(str, [u8])`, the trait `Sized` is not implemented for `[
+u8]`
+    = note: required because it appears within the type `(str, [u8])`
+note: required by an implicit `Sized` bound in `std::option::Option`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by the implicit `Sized` requirement on this
+type parameter in `Option`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\app\gpu.rs:70:24
+   |
+70 | ...   .and_then(|text| crate::gpu_memo::GpuMemo::parse(&text).map_err(|.
+..
+   |                  ^^^^ doesn't have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `str`
+   = note: all function arguments must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\input\shortcut_dispatch.rs:59:32
+   |
+59 |         !explicit.is_some_and(|id| {
+   |                                ^^ doesn't have a size known at compile-t
+ime
+   |
+   = help: the trait `Sized` is not implemented for `str`
+   = note: all function arguments must have a statically known size
+
+error[E0658]: use of unstable library feature `str_as_str`
+  --> crates\ui-egui\src\input\shortcut_dispatch.rs:71:114
+   |
+71 | ...ATALOG.iter().any(|c| c.3 == k.as_str() && c.2.is_some() && c.2 == sc
+)
+   |                                   ^^^^^^
+   |
+   = note: see issue #130366 <https://github.com/rust-lang/rust/issues/130366
+> for more information
+
+error[E0658]: use of unstable library feature `str_as_str`
+  --> crates\ui-egui\src\input\shortcut_dispatch.rs:92:72
+   |
+92 | ...   && !crate::menus::UI_COMMANDS.iter().any(|c| c.0 == id.as_str())
+   |                                                              ^^^^^^
+   |
+   = note: see issue #130366 <https://github.com/rust-lang/rust/issues/130366
+> for more information
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\input\shortcuts.rs:213:110
+    |
+213 | ...filter_map(|k| parse(&k)).collect();
+    |                ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all function arguments must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\input\shortcuts.rs:1018:20
+     |
+1018 |             if let Some(name) = app.ui.selected_path.clone() {
+     |                    ^^^^^^^^^^ doesn't have a size known at compile-tim
+e
+     |
+     = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\core\src\option.rs:598:17
+     |
+ 598 | pub enum Option<T> {
+     |                 ^ required by this bound in `Some`
+...
+ 606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+     |     ---- required by a bound in this tuple variant
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\prefs\kys_import.rs:183:37
+    |
+183 |     app.ui.kys_offer = Some(Offer { source, set: name, changes, text })
+;
+    |                                     ^^^^^^ expected `String`, found `st
+r`
+    |
+help: try using a conversion method
+    |
+183 |     app.ui.kys_offer = Some(Offer { source: source.to_string(), set: na
+me, changes, text });
+    |                                     +++++++       ++++++++++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\prefs\kys_import.rs:183:65
+    |
+183 |     app.ui.kys_offer = Some(Offer { source, set: name, changes, text })
+;
+    |                                                                 ^^^^ ex
+pected `String`, found `str`
+    |
+help: try using a conversion method
+    |
+183 |     app.ui.kys_offer = Some(Offer { source, set: name, changes, text: t
+ext.to_string() });
+    |                                                                 +++++
+   ++++++++++++
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:162:85
+    |
+162 | ...).and_then(|t| serde_json::from_str::<Value>(&t).ok());
+    |                ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all function arguments must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:300:17
+    |
+300 |                 Ok(()) => {
+    |                 ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `std::prelude::v1::Ok`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by this bound in `std::prelude::v1::Ok`
+...
+562 |     Ok(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     -- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:303:21
+    |
+303 |                 Err(e) => {
+    |                     ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:303:17
+    |
+303 |                 Err(e) => {
+    |                 ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Err`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by this bound in `Err`
+...
+567 |     Err(#[stable(feature = "rust1", since = "1.0.0")] E),
+    |     --- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:293:43
+    |
+293 |         for (raw_id, revision, result) in results() {
+    |                                           ^^^^^^^^^ doesn't have a size
+ known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by an implicit `Sized` bound in `std::result::Result`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by the implicit `Sized` requirement on th
+is type parameter in `Result`
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:353:21
+    |
+353 |                 Err(e) => {
+    |                     ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:353:17
+    |
+353 |                 Err(e) => {
+    |                 ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Err`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by this bound in `Err`
+...
+567 |     Err(#[stable(feature = "rust1", since = "1.0.0")] E),
+    |     --- required by a bound in this tuple variant
+
+error[E0658]: use of unstable library feature `str_as_str`
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:384:69
+    |
+384 | ...:commands::find(id).map_or(id.as_str(), |c| c.label).trim_end_match.
+..
+    |                                  ^^^^^^
+    |
+    = note: see issue #130366 <https://github.com/rust-lang/rust/issues/13036
+6> for more information
+
+error[E0658]: use of unstable library feature `str_as_str`
+   --> crates\ui-egui\src\prefs\prefs_ui\save.rs:387:32
+    |
+387 | ...   if matches!(id.as_str(), "file.new" | "file.open" | "file.close".
+..
+    |                      ^^^^^^
+    |
+    = note: see issue #130366 <https://github.com/rust-lang/rust/issues/13036
+6> for more information
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\startup.rs:31:12
+    |
+ 31 |     if let Some(text) = app.services.load_prefs.as_mut().and_then(|f| .
+..
+    |            ^^^^^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:598:17
+    |
+598 | pub enum Option<T> {
+    |                 ^ required by this bound in `Some`
+...
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ---- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+  --> crates\ui-egui\src\prefs\prefs_ui\startup.rs:37:17
+   |
+37 |             Err(e) => {
+   |                 ^ doesn't have a size known at compile-time
+   |
+   = help: the trait `Sized` is not implemented for `str`
+   = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\startup.rs:37:13
+    |
+ 37 |             Err(e) => {
+    |             ^^^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Err`
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\result.rs:558:20
+    |
+558 | pub enum Result<T, E> {
+    |                    ^ required by this bound in `Err`
+...
+567 |     Err(#[stable(feature = "rust1", since = "1.0.0")] E),
+    |     --- required by a bound in this tuple variant
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+   --> crates\ui-egui\src\prefs\prefs_ui\startup.rs:175:29
+    |
+175 |     let Some((id, revision, name)) = recovered else {
+    |                             ^^^^ doesn't have a size known at compile-t
+ime
+    |
+    = help: the trait `Sized` is not implemented for `str`
+    = note: all local variables must have a statically known size
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\analysis_ui.rs:472:17
+    |
+472 |                 *at = [x, y];
+    |                 ^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 4]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\crop_overlay.rs:304:138
+    |
+304 | ...i.crop_rect != Some(*rect),
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\crop_overlay.rs:305:113
+    |
+305 | ...p_ui::angle(app) != *from,
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1241:17
+     |
+1241 |                 *anchor = [anchor[0] + d[0], anchor[1] + d[1]];
+     |                 ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1242:17
+     |
+1242 |                 *cur = [cur[0] + d[0], cur[1] + d[1]];
+     |                 ^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1244:17
+     |
+1244 |                 *cur = p;
+     |                 ^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1246:13
+     |
+1246 |             *last = p;
+     |             ^^^^^ can't be dereferenced
+     |
+help: parentheses are required to parse this as an expression
+     |
+1238 ~             (if space {
+1239 |                 // Space: the frame being drawn follows the pointer, k
+eeping its size.
+ ...
+1244 |                 *cur = p;
+1245 ~             })
+     |
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1247:14
+     |
+1247 |             (*anchor != *cur).then(|| drawn(*anchor, *cur, ratio, mods
+))
+     |              ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1247:25
+     |
+1247 |             (*anchor != *cur).then(|| drawn(*anchor, *cur, ratio, mods
+))
+     |                         ^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1247:45
+     |
+1247 |             (*anchor != *cur).then(|| drawn(*anchor, *cur, ratio, mods
+))
+     |                                             ^^^^^^^ can't be dereferen
+ced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1247:54
+     |
+1247 |             (*anchor != *cur).then(|| drawn(*anchor, *cur, ratio, mods
+))
+     |                                                      ^^^^ can't be der
+eferenced
+
+error[E0614]: type `[f64; 4]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1259:33
+     |
+1259 | ...   Some(resized_turned(*rect, deg, *hx, *hy, [resize_at[0] - start.
+..
+     |                           ^^^^^ can't be dereferenced
+
+error[E0614]: type `i8` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1259:45
+     |
+1259 | ...   Some(resized_turned(*rect, deg, *hx, *hy, [resize_at[0] - start.
+..
+     |                                       ^^^ can't be dereferenced
+
+error[E0614]: type `i8` cannot be dereferenced
+    --> crates\ui-egui\src\tools\crop_ui.rs:1259:50
+     |
+1259 | ...ed(*rect, deg, *hx, *hy, [resize_at[0] - start[0], resize_at[1] - .
+..
+     |                        ^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\direct_select.rs:203:100
+    |
+203 | ...(t) => photocraft_engine::type_extra_cmds::type_path(t).map(std::bo.
+..
+    |           --------------------------------------------- ^ expected `&Te
+xtLayer`, found `TextLayer`
+    |           |
+    |           arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_extra_cmds.rs:425:8
+    |
+425 | pub fn type_path(t: &TextLayer) -> Option<Path> {
+    |        ^^^^^^^^^
+help: consider borrowing here
+    |
+203 |             photocraft_doc::LayerContent::Text(t) => photocraft_engine:
+:type_extra_cmds::type_path(&t).map(std::borrow::Cow::Owned),
+    |
+                            +
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:621:21
+    |
+621 |                     *end = edit.constrain(*start, [x, y], mods.shift);
+    |                     ^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:621:43
+    |
+621 |                     *end = edit.constrain(*start, [x, y], mods.shift);
+    |                                           ^^^^^^ can't be dereferenced
+
+error[E0614]: type `std::option::Option<photocraft_doc::Path>` cannot be dere
+ferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:622:21
+    |
+622 |                     *preview = edit.preview(base, *start, *end);
+    |                     ^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:622:51
+    |
+622 |                     *preview = edit.preview(base, *start, *end);
+    |                                                   ^^^^^^ can't be deref
+erenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:622:59
+    |
+622 |                     *preview = edit.preview(base, *start, *end);
+    |                                                           ^^^^ can't be
+ dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\direct_select.rs:622:45
+    |
+622 |                     *preview = edit.preview(base, *start, *end);
+    |                                     ------- ^^^^ expected `&Path`, foun
+d `Path`
+    |                                     |
+    |                                     arguments to this method are incorr
+ect
+    |
+note: method defined here
+   --> crates\ui-egui\src\tools\direct_select.rs:314:8
+    |
+314 |     fn preview(&self, base: &Path, start: [f64; 2], end: [f64; 2]) -> .
+..
+    |        ^^^^^^^        -----------
+help: consider borrowing here
+    |
+622 |                     *preview = edit.preview(&base, *start, *end);
+    |                                             +
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:624:52
+    |
+624 |                 Some(Drag::Marquee { end, .. }) => *end = [x, y],
+    |                                                    ^^^^ can't be derefe
+renced
+
+error[E0614]: type `PathRef` cannot be dereferenced
+   --> crates\ui-egui\src\tools\direct_select.rs:997:66
+    |
+997 | ... Some(p), .. }) if *target == r => p.clone(),
+    |                       ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\direct_select.rs:1015:20
+     |
+1015 | ...   let pts = [*start, [end[0], start[1]], *end, [start[0], end[1]].
+..
+     |                  ^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+    --> crates\ui-egui\src\tools\direct_select.rs:1015:48
+     |
+1015 | ...[end[0], start[1]], *end, [start[0], end[1]]].map(to_scr);
+     |                        ^^^^ can't be dereferenced
+
+error[E0277]: the size for values of type `[usize]` cannot be known at compil
+ation time
+   --> crates\ui-egui\src\tools\frame_tool.rs:100:75
+    |
+100 | ...s_some_and(|p| path_visible(&st.doc, &p)))
+    |                ^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[usize]`
+    = note: all function arguments must have a statically known size
+
+error[E0614]: type `DocId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:312:66
+    |
+312 | ...r(|st| st.doc.id == *doc && st.revision == *revision) else {
+    |                        ^^^^ can't be dereferenced
+
+error[E0614]: type `u64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:312:89
+    |
+312 | ...&& st.revision == *revision) else {
+    |                      ^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:316:37
+    |
+316 |     let (id, revision, proposed) = (*layer, *revision, *proposed);
+    |                                     ^^^^^^ can't be dereferenced
+
+error[E0614]: type `u64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:316:45
+    |
+316 |     let (id, revision, proposed) = (*layer, *revision, *proposed);
+    |                                             ^^^^^^^^^ can't be derefere
+nced
+
+error[E0614]: type `photocraft_doc::Affine` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:316:56
+    |
+316 |     let (id, revision, proposed) = (*layer, *revision, *proposed);
+    |                                                        ^^^^^^^^^ can't
+be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\frame_tool.rs:497:31
+    |
+497 |                     original: f.clone(),
+    |                               ^^^^^^^^^ expected `Box<Frame>`, found `F
+rame`
+    |
+    = note: expected struct `std::boxed::Box<Frame>`
+               found struct `Frame`
+    = note: for more on the distinction between the stack and the heap, read
+https://doc.rust-lang.org/book/ch15-01-box.html, https://doc.rust-lang.org/ru
+st-by-example/std/box.html, and https://doc.rust-lang.org/std/boxed/index.htm
+l
+help: store this in the heap by calling `Box::new`
+    |
+497 |                     original: Box::new(f.clone()),
+    |                               +++++++++         +
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:514:29
+    |
+514 | ...   *start = [start[0] + x - cur[0], start[1] + y - cur[1]];
+    |       ^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:516:25
+    |
+516 |                         *cur = [x, y];
+    |                         ^^^^ can't be dereferenced
+    |
+help: parentheses are required to parse this as an expression
+    |
+513 ~                         (if space {
+514 |                             *start = [start[0] + x - cur[0], start[1] +
+ y - cur[1]];
+515 ~                         })
+    |
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:517:25
+    |
+517 |                         *square = mods.shift;
+    |                         ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:518:25
+    |
+518 |                         *centred = mods.alt;
+    |                         ^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::Affine` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:520:80
+    |
+520 | ...rt, mode, .. } => *proposed = edit_transform(original, *mode, *star.
+..
+    |                      ^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `EditMode` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:520:117
+    |
+520 | ...transform(original, *mode, *start, [x, y], mods),
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:520:124
+    |
+520 | ...m(original, *mode, *start, [x, y], mods),
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\frame_tool.rs:520:107
+    |
+520 | ... = edit_transform(original, *mode, *start, [x, y], mods),
+    |       -------------- ^^^^^^^^ expected `&Frame`, found `Box<Frame>`
+    |       |
+    |       arguments to this function are incorrect
+    |
+    = note: expected reference `&Frame`
+                  found struct `std::boxed::Box<Frame>`
+note: function defined here
+   --> crates\ui-egui\src\tools\frame_tool.rs:238:4
+    |
+238 | fn edit_transform(f: &Frame, mode: EditMode, start: [f64; 2], p: [f64;.
+..
+    |    ^^^^^^^^^^^^^^ ---------
+help: consider borrowing here
+    |
+520 |                     FrameDrag::Edit { original, proposed, start, mode,
+.. } => *proposed = edit_transform(&original, *mode, *start, [x, y], mods),
+    |
+                                   +
+
+error[E0277]: the size for values of type `[usize]` cannot be known at compil
+ation time
+   --> crates\ui-egui\src\tools\frame_tool.rs:574:14
+    |
+574 |         for (path, _, l) in st.doc.walk() {
+    |              ^^^^ doesn't have a size known at compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[usize]`
+    = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `[usize]` cannot be known at compil
+ation time
+   --> crates\ui-egui\src\tools\frame_tool.rs:574:29
+    |
+574 |         for (path, _, l) in st.doc.walk() {
+    |                             ^^^^^^^^^^^^^ doesn't have a size known at
+compile-time
+    |
+    = help: the trait `Sized` is not implemented for `[usize]`
+    = note: only the last element of a tuple may have a dynamically sized typ
+e
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:591:23
+    |
+591 |         let r = drawn(*start, *cur, *square, *centred);
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:591:31
+    |
+591 |         let r = drawn(*start, *cur, *square, *centred);
+    |                               ^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:591:37
+    |
+591 |         let r = drawn(*start, *cur, *square, *centred);
+    |                                     ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:591:46
+    |
+591 |         let r = drawn(*start, *cur, *square, *centred);
+    |                                              ^^^^^^^^ can't be derefere
+nced
+
+error[E0614]: type `photocraft_doc::Affine` cannot be dereferenced
+   --> crates\ui-egui\src\tools\frame_tool.rs:613:23
+    |
+613 |         f.transform = *proposed;
+    |                       ^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:278:40
+    |
+278 |         Drag::Draw { from, to, .. } => *to = snap(*from, p),
+    |                                        ^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:278:51
+    |
+278 |         Drag::Draw { from, to, .. } => *to = snap(*from, p),
+    |                                                   ^^^^^ can't be derefe
+renced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:280:21
+    |
+280 |             if dist(*down, p) * zoom >= 2.0 {
+    |                     ^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:281:17
+    |
+281 |                 *moved = true;
+    |                 ^^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:283:17
+    |
+283 |             if !*moved {
+    |                 ^^^^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:286:64
+    |
+286 | ...lter(|a| a.0.id == *layer).and_then(|(l, frame, _)| Widget::new(fil.
+..
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0614]: type `Option<(&str, Value)>` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:288:13
+    |
+288 |             *commit = match *grab {
+    |             ^^^^^^^ can't be dereferenced
+    |
+    = note: the full name for the type has been written to 'C:\Dev\Source Cod
+e\ArtCraft\Photocraft\photocraft-main\target\debug\deps\photocraft_ui_egui-c7
+af1b05e502dbaa.long-type-15920233430067363174.txt'
+    = note: consider using `--verbose` to print the full type name to the con
+sole
+
+error[E0614]: type `gradient_ui::Grab` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:288:29
+    |
+288 |             *commit = match *grab {
+    |                             ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:394:73
+    |
+394 | ...e_mode(app) && dist(*from, *to) >= 1.0 => match redraw {
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:394:80
+    |
+394 | ...(app) && dist(*from, *to) >= 1.0 => match redraw {
+    |                         ^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:395:31
+    |
+395 | ...   Some(id) => Some((*id, cmds::SET, json!({"from": from, "to": to}.
+..
+    |                         ^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:396:75
+    |
+396 | ... create_params(app, *from, *to))),
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:396:82
+    |
+396 | ...e_params(app, *from, *to))),
+    |                         ^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:398:104
+    |
+398 | ...mode(app) => Some((*layer, *cmd, p.clone())),
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\gradient_ui.rs:398:112
+    |
+398 | ...=> Some((*layer, *cmd, p.clone())),
+    |                     ^^^^ expected `&str`, found `str`
+    |
+help: consider removing deref here
+    |
+398 -         Some(Drag::Edit { layer, commit: Some((cmd, p)), moved: true, .
+. }) if live_mode(app) => Some((*layer, *cmd, p.clone())),
+398 +         Some(Drag::Edit { layer, commit: Some((cmd, p)), moved: true, .
+. }) if live_mode(app) => Some((*layer, cmd, p.clone())),
+    |
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:434:80
+    |
+434 | ...&create_params(app, *from, *to)).ok()?;
+    |                        ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f32; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:434:87
+    |
+434 | ...e_params(app, *from, *to)).ok()?;
+    |                         ^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:439:34
+    |
+439 |             let l = st.doc.layer(*id)?;
+    |                                  ^^^ can't be dereferenced
+
+error[E0614]: type `photocraft_doc::LayerId` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:444:34
+    |
+444 |             let l = st.doc.layer(*layer)?;
+    |                                  ^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\gradient_ui.rs:446:74
+    |
+446 | ...p)) => match edited_fill(app, l, canvas, cmd, p) {
+    |                 -----------                      ^ expected `&Value`, f
+ound `Value`
+    |                 |
+    |                 arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\ui-egui\src\tools\gradient_ui.rs:132:4
+    |
+132 | fn edited_fill(app: &PhotocraftApp, layer: &Layer, canvas: Rect32, cmd:
+ &str, p: &Value) -...
+    |    ^^^^^^^^^^^
+       ---------
+help: consider borrowing here
+    |
+446 |                 Some((cmd, p)) => match edited_fill(app, l, canvas, cmd
+, &p) {
+    |
+  +
+
+error[E0614]: type `gradient_ui::Grab` cannot be dereferenced
+   --> crates\ui-egui\src\tools\gradient_ui.rs:454:87
+    |
+454 | ...deleting).then_some(*grab)))
+    |                        ^^^^^ can't be dereferenced
+
+error[E0689]: can't call method `floor` on ambiguous numeric type `{float}`
+  --> crates\ui-egui\src\tools\magnetic_lasso_ui.rs:88:36
+   |
+88 |     let stored = (40.0 - 0.35 * f).floor();
+   |                                    ^^^^^
+
+error[E0614]: type `[f64; 4]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\move_distance.rs:147:11
+    |
+147 |     Some((*rect, [rect[0] + d[0], rect[1] + d[1], rect[2] + d[0], rect.
+..
+    |           ^^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\perspective_ui.rs:222:49
+    |
+222 |             Some(Drag::NewPlane { cur, .. }) => *cur = [x, y],
+    |                                                 ^^^^ can't be dereferen
+ced
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\tools\retouch_ui.rs:1191:22
+     |
+1191 |                 Some(text) => opt(ui, &text),
+     |                      ^^^^ doesn't have a size known at compile-time
+     |
+     = help: the trait `Sized` is not implemented for `str`
+     = note: all local variables must have a statically known size
+
+error[E0277]: the size for values of type `str` cannot be known at compilatio
+n time
+    --> crates\ui-egui\src\tools\retouch_ui.rs:1191:17
+     |
+1191 |                 Some(text) => opt(ui, &text),
+     |                 ^^^^^^^^^^ doesn't have a size known at compile-time
+     |
+     = help: the trait `Sized` is not implemented for `str`
+note: required by a bound in `Some`
+    --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/r
+ustlib/src/rust\library\core\src\option.rs:598:17
+     |
+ 598 | pub enum Option<T> {
+     |                 ^ required by this bound in `Some`
+...
+ 606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+     |     ---- required by a bound in this tuple variant
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\slice_ui.rs:192:123
+    |
+192 | ...ize { cur, .. }) => *cur = [x, y],
+    |                        ^^^^ can't be dereferenced
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\slice_ui.rs:312:46
+    |
+312 |             let sr = to_screen(new_rect(app, *start, *cur));
+    |                                              ^^^^^^ can't be dereferenc
+ed
+
+error[E0614]: type `[f64; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\slice_ui.rs:312:54
+    |
+312 |             let sr = to_screen(new_rect(app, *start, *cur));
+    |                                                      ^^^^ can't be dere
+ferenced
+
+error[E0614]: type `photocraft_doc::Rect` cannot be dereferenced
+   --> crates\ui-egui\src\tools\slice_ui.rs:322:29
+    |
+322 | ...   let r = resized(*rect, *handle, (cur[0] - start[0]).round() as i.
+..
+    |                       ^^^^^ can't be dereferenced
+
+error[E0614]: type `[i8; 2]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\slice_ui.rs:322:36
+    |
+322 | ...   let r = resized(*rect, *handle, (cur[0] - start[0]).round() as i.
+..
+    |                              ^^^^^^^ can't be dereferenced
+
+warning: method call on a diverging inference variable
+  --> crates\ui-egui\src\tools\transform_tool\begin.rs:89:25
+   |
+89 |             } else if b.is_empty() {
+   |                         ^^^^^^^^
+   |
+   = help: consider providing a type annotation
+   = warning: this was previously accepted by the compiler but is being phase
+d out; it will become a hard error in a future release!
+   = note: for more information, see issue #156047 <https://github.com/rust-l
+ang/rust/issues/156047>
+
+error[E0599]: no method named `is_empty` found for type `!` in the current sc
+ope
+  --> crates\ui-egui\src\tools\transform_tool\begin.rs:89:25
+   |
+89 |             } else if b.is_empty() {
+   |                         ^^^^^^^^ method not found in `!`
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\transform_tool\begin.rs:959:53
+    |
+959 |         photocraft_engine::type_cmds::refresh(&doc, tt);
+    |         -------------------------------------       ^^ expected `&mut T
+extLayer`, found `TextLayer`
+    |         |
+    |         arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:644:8
+    |
+644 | pub fn refresh(doc: &Document, t: &mut TextLayer) {
+    |        ^^^^^^^
+help: consider mutably borrowing here
+    |
+959 |         photocraft_engine::type_cmds::refresh(&doc, &mut tt);
+    |                                                     ++++
+
+error[E0614]: type `[f64; 7]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\transform_tool\cylinder.rs:195:67
+    |
+195 | ...&cylinder_dragged(*values0, *handle, [x - start[0], y - start[1]]),.
+..
+    |                      ^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `CylinderHandle` cannot be dereferenced
+   --> crates\ui-egui\src\tools\transform_tool\cylinder.rs:195:77
+    |
+195 | ..._dragged(*values0, *handle, [x - start[0], y - start[1]]), w.bounds)
+    |                       ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `usize` cannot be dereferenced
+   --> crates\ui-egui\src\tools\transform_tool\warp.rs:153:95
+    |
+153 | ...m.drag_point(pts0, *index, [x - start[0], y - start[1]]),
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\transform_tool\warp.rs:154:90
+    |
+154 | ...(m)) => m.pull(pts0, *s, *t, [x - start[0], y - start[1]]),
+    |                         ^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\transform_tool\warp.rs:154:94
+    |
+154 | ... => m.pull(pts0, *s, *t, [x - start[0], y - start[1]]),
+    |                         ^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_box_preview.rs:292:49
+    |
+292 |         photocraft_engine::type_cmds::apply_box(t, boxed);
+    |         --------------------------------------- ^ expected `&mut TextLa
+yer`, found `TextLayer`
+    |         |
+    |         arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:666:8
+    |
+666 | pub fn apply_box(t: &mut TextLayer, b: [f64; 4]) {
+    |        ^^^^^^^^^
+help: consider mutably borrowing here
+    |
+292 |         photocraft_engine::type_cmds::apply_box(&mut t, boxed);
+    |                                                 ++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_font_preview.rs:88:55
+    |
+ 88 |             photocraft_engine::type_cmds::style_range(t, start, end, &.
+..
+    |             ----------------------------------------- ^ expected `&mut
+TextLayer`, found `TextLayer`
+    |             |
+    |             arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:493:8
+    |
+493 | pub fn style_range(t: &mut TextLayer, a: usize, b: usize, f: &dyn Fn(&.
+..
+    |        ^^^^^^^^^^^
+help: consider mutably borrowing here
+    |
+ 88 |             photocraft_engine::type_cmds::style_range(&mut t, start, en
+d, &|style| {
+    |                                                       ++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_font_preview.rs:92:66
+    |
+ 92 |             photocraft_engine::type_cmds::refresh(&original_doc, t);
+    |             -------------------------------------                ^ expe
+cted `&mut TextLayer`, found `TextLayer`
+    |             |
+    |             arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:644:8
+    |
+644 | pub fn refresh(doc: &Document, t: &mut TextLayer) {
+    |        ^^^^^^^
+help: consider mutably borrowing here
+    |
+ 92 |             photocraft_engine::type_cmds::refresh(&original_doc, &mut t
+);
+    |                                                                  ++++
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_path_placement.rs:32:90
+    |
+ 32 | .... }) => Some(text),
+    |            ---- ^^^^ expected `&TextLayer`, found `TextLayer`
+    |            |
+    |            arguments to this enum variant are incorrect
+    |
+help: the type constructed contains `TextLayer` due to the type of the argume
+nt passed
+   --> crates\ui-egui\src\tools\type_path_placement.rs:32:85
+    |
+ 32 | ... }) => Some(text),
+    |           ^^^^^----^
+    |                |
+    |                this argument influences the type of `Some`
+note: tuple variant defined here
+   --> C:\Users\ÄGARE\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib/ru
+stlib/src/rust\library\core\src\option.rs:606:5
+    |
+606 |     Some(#[stable(feature = "rust1", since = "1.0.0")] T),
+    |     ^^^^
+help: consider borrowing here
+    |
+ 32 |         LayerContent::Text(text) if matches!(text.shape, TextShape::Pat
+h { .. }) => Some(&text),
+    |
+                  +
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_path_placement.rs:404:52
+    |
+404 |     photocraft_engine::type_cmds::refresh(&source, text);
+    |     -------------------------------------          ^^^^ expected `&mut
+TextLayer`, found `TextLayer`
+    |     |
+    |     arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:644:8
+    |
+644 | pub fn refresh(doc: &Document, t: &mut TextLayer) {
+    |        ^^^^^^^
+help: consider mutably borrowing here
+    |
+404 |     photocraft_engine::type_cmds::refresh(&source, &mut text);
+    |                                                    ++++
+
+error[E0614]: type `IncomingSelection` cannot be dereferenced
+   --> crates\ui-egui\src\tools\type_tool\ime.rs:203:119
+    |
+203 | ...: old, .. } => Some(*old) != destination,
+    |                        ^^^^ can't be dereferenced
+
+error[E0614]: type `IncomingSelection` cannot be dereferenced
+   --> crates\ui-egui\src\tools\type_tool\ime.rs:437:13
+    |
+437 | ...   *old == destination && *old_context == Some(context) && !app.typ.
+..
+    |       ^^^^ can't be dereferenced
+
+error[E0614]: type `std::option::Option<ResetContext>` cannot be dereferenced
+   --> crates\ui-egui\src\tools\type_tool\ime.rs:437:36
+    |
+437 | ...   *old == destination && *old_context == Some(context) && !app.typ.
+..
+    |                              ^^^^^^^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\type_transform.rs:375:52
+    |
+375 |     photocraft_engine::type_cmds::refresh(&source, text);
+    |     -------------------------------------          ^^^^ expected `&mut
+TextLayer`, found `TextLayer`
+    |     |
+    |     arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_cmds.rs:644:8
+    |
+644 | pub fn refresh(doc: &Document, t: &mut TextLayer) {
+    |        ^^^^^^^
+help: consider mutably borrowing here
+    |
+375 |     photocraft_engine::type_cmds::refresh(&source, &mut text);
+    |                                                    ++++
+
+error[E0614]: type `[f64; 4]` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:454:64
+    |
+454 | ...corner_radii_patch(*radii, index, radius);
+    |                       ^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:464:33
+    |
+464 |                     let mut r = *corner_radius as f32;
+    |                                 ^^^^^^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `u32` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:470:33
+    |
+470 |                     let mut n = *sides as f32;
+    |                                 ^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:474:35
+    |
+474 |                     let mut sr = (*star_ratio * 100.0) as f32;
+    |                                   ^^^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:484:33
+    |
+484 |                     let mut r = *corner_radius as f32;
+    |                                 ^^^^^^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:494:37
+    |
+494 |                     let mut value = *start;
+    |                                     ^^^^^^ can't be dereferenced
+
+error[E0614]: type `bool` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:498:37
+    |
+498 |                     let mut value = *end;
+    |                                     ^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:504:33
+    |
+504 |                     let mut v = *width as f32;
+    |                                 ^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:510:33
+    |
+510 |                     let mut v = *length as f32;
+    |                                 ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:516:33
+    |
+516 |                     let mut v = *weight as f32;
+    |                                 ^^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:524:33
+    |
+524 |                     let mut v = *concavity as f32;
+    |                                 ^^^^^^^^^^ can't be dereferenced
+
+error[E0614]: type `f64` cannot be dereferenced
+   --> crates\ui-egui\src\tools\vector_ui\options.rs:550:33
+    |
+550 |                     let mut w = *weight as f32;
+    |                                 ^^^^^^^ can't be dereferenced
+
+error[E0308]: mismatched types
+   --> crates\ui-egui\src\tools\vector_ui\path_ops.rs:191:80
+    |
+191 | ...(t) => photocraft_engine::type_extra_cmds::type_path(t).map(|p| (l..
+..
+    |           --------------------------------------------- ^ expected `&Te
+xtLayer`, found `TextLayer`
+    |           |
+    |           arguments to this function are incorrect
+    |
+note: function defined here
+   --> crates\engine\src\cmd\type_extra_cmds.rs:425:8
+    |
+425 | pub fn type_path(t: &TextLayer) -> Option<Path> {
+    |        ^^^^^^^^^
+help: consider borrowing here
+    |
+191 |         LayerContent::Text(t) => photocraft_engine::type_extra_cmds::ty
+pe_path(&t).map(|p| (l.id.0, p)),
+    |
+        +
+
+Some errors have detailed explanations: E0277, E0308, E0585, E0599, E0614, E0
+618, E0658, E0689.
+For more information about an error, try `rustc --explain E0277`.
+warning: `photocraft-ui-egui` (lib) generated 10 warnings
+error: could not compile `photocraft-ui-egui` (lib) due to 225 previous error
+s; 12 warnings emitted
